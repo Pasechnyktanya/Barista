@@ -1,0 +1,12 @@
+.about__our__courses {
+    position: relative;
+    padding: 140px 0 140px 0;
+}
+.about__inner {
+    padding: 0 40px 0 40px;
+}
+.little__title {
+    color: rgb(199 161 122)!important;
+    font-family: Satisfy;
+    font-size: inherit;
+}
