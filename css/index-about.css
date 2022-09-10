@@ -2,11 +2,41 @@
     position: relative;
     padding: 140px 0 140px 0;
 }
-.about__inner {
+.about__our__inner {
+    font-family: 'Bebas Neue';
     padding: 0 40px 0 40px;
 }
 .little__title {
     color: rgb(199 161 122)!important;
     font-family: Satisfy;
-    font-size: inherit;
+    font-size: 28px;
+}
+ /* accordion*/
+.accordion__about__item {
+    position: relative;
+    margin-bottom: 10px;
+
+}
+.accordion__item__input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+}
+.accordion__triger {
+    display: block;
+    font-family: 'Bebas Neue';
+    padding: 20px;
+    
+
+}
+.accordion__about__content {
+    display: none;
+    padding: 20px;
+    
+
+}
+.accordion__item__input:checked ~ .accordion__about__content {
+    display: block;
 }
