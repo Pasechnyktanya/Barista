@@ -1,3 +1,18 @@
-.recipes p:first-child {
+.recipes__p {
     font-family: 'Satisfy', cursive;
+    color: #c9a27c;
+}
+.recipes hr {
+    width:15%;
+    height: 3px;
+    background-color: #c9a27c;
+    justify-content: left;
+}
+.recipes__proposal {
+    color: #5b5b5b;
+   font-size: x-large;
+}
+.recipes__info{
+    color: #868686;
+    font-size: inherit;
 }
