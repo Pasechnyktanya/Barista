@@ -1,4 +1,8 @@
 .about__our__courses {
+    background-image: url(/img/background_section_about.png);
+    background-color: rgb(35, 36, 38, 0.6);
+    color: rgb(225, 225, 225);
+    background-attachment: fixed;
     position: relative;
     padding: 140px 0 140px 0;
 }
