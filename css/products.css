@@ -1,8 +1,11 @@
-.recipes__p {
+.our_fav_coffee_recipes{
+    background-color: #f2f0ec;
+}
+#first_p_with_int-print {
     font-family: 'Satisfy', cursive;
     color: #c9a27c;
 }
-.recipes hr {
+#hr_after_p-y {
     width:15%;
     height: 3px;
     background-color: #c9a27c;
@@ -15,4 +18,45 @@
 .recipes__info{
     color: #868686;
     font-size: inherit;
+}
+#coffee_background {
+    width: 300px;
+    height: 300px;
+}
+#cheese_dessert{
+    width: 300px;
+    height: 300px; 
+}
+
+.remember_this p{
+    color: #868686;
+    font-size: inherit;
+}
+.coffe_making img{
+    width: 60px;
+    height: 60px; 
+}
+.experienced_barista img{
+    width: 60px;
+    height: 60px
+}
+.classic_drinks img{
+    width: 60px;
+    height: 60px
+}
+.remember_this__two-big-photos{
+    width: 600px;
+    height: 600px
+}
+.few_things{
+    color: #5b5b5b;
+   font-size: x-large;
+}
+.remember_this__features h2{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+}
+.recipes_our_fav{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
 }
