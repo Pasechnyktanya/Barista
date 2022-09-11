@@ -1,12 +1,18 @@
 .fonts_logo_making {
     font-family: 'Satisfy', cursive;
     color: #c9a27c;
-
+    font-size: 24px;
 }
 .hr_making_team {
     height: 3px;
-    width: 10%;
+    width: 35px;
+    
     background-color: #c7a17a;
-    justify-content: left;
+}
+.hr_logo_team {
+    height: 3px;
+    width: 55px;
+    background-color: #c7a17a;
+   
 }
 
