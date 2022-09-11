@@ -22,7 +22,12 @@
     background-attachment: fixed;
     min-height: 500px;
     display: flex;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
-
+   color: #c7a17a;
+}
+.video__text {
+    color: white !important;
+    
 }
