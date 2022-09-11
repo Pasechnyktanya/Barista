@@ -3,22 +3,29 @@
 
 .about__our__courses {
     background-image: url(/img/background_section_about.png);
+    background-size: 100% auto;
     background-color: rgb(35, 36, 38, 0.6);
-    filter: brightness(40%);
     color: rgb(225, 225, 225);
     background-attachment: fixed;
-    display: grid;
-    grid-template-columns: 6fr 2fr 4fr;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     position: relative;
+    padding: 0px 0 0px 0;
+}
+.dark__filter {
+    background-color: rgba(0,0,0,0.8);
+    display: grid; /* temporary*/
+    grid-template-columns: 6fr 2fr 4fr;
     padding: 140px 0 140px 0;
 }
 
 .about__our__inner,
 .info__about__course {
     
+    color: rgb(225, 225, 225);
+    
     padding: 0 40px 0 40px;
+    margin-left: 0 0 0 20px;
 }
 .little__title {
     color: rgb(199 161 122)!important;
