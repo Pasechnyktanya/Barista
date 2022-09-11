@@ -6,7 +6,7 @@
 .hr_making_team {
     height: 3px;
     width: 35px;
-    
+    justify-content: left;
     background-color: #c7a17a;
 }
 .hr_logo_team {
@@ -15,4 +15,14 @@
     background-color: #c7a17a;
    
 }
+.video {
+    background-image: url(/img/photo_video.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
