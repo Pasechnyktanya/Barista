@@ -29,5 +29,44 @@
 }
 .video__text {
     color: white !important;
+    font-size: 58px;
+   
+    line-height: 1.1;
+    font-family: Bebas Neue,cursive;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .02em;
     
+}
+.h2_team {
+    font-family: Bebas Neue,cursive;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .02em;
+}
+.h2_master_coffee_making {
+    font-size: 58px;
+    color: #27292b;
+    line-height: 1.1;
+    font-family: Bebas Neue,cursive;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .02em;
+}
+.h3_master_coffee_making {
+    font-size: 34px;
+    line-height: 1.2;
+    font-family: Bebas Neue,cursive;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .02em;
+    color: #27292b;
+    text-transform: none;
 }
