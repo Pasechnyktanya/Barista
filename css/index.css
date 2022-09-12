@@ -1,11 +1,11 @@
 @import url(common.css);
 @import url(index-header.css);
-@import url(index-pricing.css);
-@import url(index-about.css);
-@import url(products.css);
 @import url(index-coffe_coffee_like_a_pro.css);
-@import url(index-students-say.css);
 @import url(index-making.css);
 @import url(index-video.css);
 @import url(index-team.css);
+@import url(index-pricing.css);
+@import url(index-students-say.css);
+@import url(index-about.css);
+@import url(products.css);
 @import url(footer.css);

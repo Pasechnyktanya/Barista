@@ -10,7 +10,11 @@
 :root {
     --text-color: #c7a17a;
     --color-gray: #27292b;
+    --color-white: #fff;
     --text-title: 'Bebas Neue';
     --text-content: 'Roboto', sans-serif;
     --text-gold: 'Satisfy';
+}
+img {
+    display: block;
 }
