@@ -1,7 +1,7 @@
 .hr_logo_team {
     height: 3px;
     width: 55px;
-    background-color: #c7a17a;
+    background-color: var(--text-color);
    
 }
 .h2_team {
@@ -11,4 +11,9 @@
     text-decoration: none;
     font-style: normal;
     letter-spacing: .02em;
+}
+.fonts_logo_team {
+    font-family: 'Satisfy', cursive;
+    color: var(--text-color);
+    font-size: 24px;
 }

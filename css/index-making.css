@@ -1,6 +1,9 @@
+.image__making {
+    width: 470px;
+}
 .fonts_logo_making {
     font-family: 'Satisfy', cursive;
-    color: #c7a17a;
+    color: var(--text-color);
     font-size: 24px;
 }
 
