@@ -5,7 +5,16 @@
 }
 
 .image__making {
-    width: 452px;
+    width: 366px;
+    min-height: 347px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    padding: 0px 15px 0px 15px;
+    
+   
+   
+    
 }
 
 .fonts_logo_making {
@@ -61,3 +70,35 @@
     padding: 18px 30px;
     display: inline-block;
 }
+.master-coffe-making {
+    margin: 0;
+    font-size: 100%;
+    font: inherit;
+    /* vertical-align: baseline; */
+    box-sizing: border-box;
+    padding: 90px 24px 90px 24px;
+    display: block;
+}
+.column__making-coffee {
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    
+}
+.column_making-learn-more {
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+@media (min-width: 754px) {
+    .master-coffe-making {
+        display: flex;
+    }
+}
+
