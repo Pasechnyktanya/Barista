@@ -10,7 +10,7 @@
     color: rgb(225, 225, 225);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--text-content);
     font-size: 17px;
     position: relative;
     padding: 0px 0 0px 0;
@@ -34,13 +34,13 @@
 }
 .little__title {
     color: var(--text-color);
-    font-family: Satisfy;
+    font-family: var(--text-gold);
     font-size: 28px;
     padding: 5px 0 0;
     
 }
 .about__title {
-    font-family: 'Bebas Neue';
+    font-family: var(--text-title);
     font-size: 58px;
     font-weight: 300;
     margin: 0;
