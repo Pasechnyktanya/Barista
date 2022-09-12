@@ -1,10 +1,10 @@
 .video {
-    background-image: url(/img/photo_video.png);
+    background: linear-gradient(rgba(39,41,43, 0.7),rgba(39,41,43, 10)), url(/img/photo_video.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 750px;
-    font-weight: 400;
+    min-height: 500px;
+    font-weight: 464;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,12 +12,12 @@
 
 }
 
-.video__text {
-    color: white !important;
+#video__text {
+    color: var(--color-white);
     font-size: 58px;
 
     line-height: 1.1;
-    font-family: Bebas Neue, cursive;
+    font-family: var(--text-title);
     font-weight: 400;
     text-transform: none;
     text-decoration: none;
@@ -27,7 +27,7 @@
 }
 
 .fonts_logo_video {
-    font-family: 'Satisfy', cursive;
+    font-family: var(--text-gold);
     /* color: var(--text-color); */
     font-size: 24px;
 }

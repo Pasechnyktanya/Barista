@@ -5,11 +5,11 @@
 }
 
 .image__making {
-    width: 470px;
+    width: 452px;
 }
 
 .fonts_logo_making {
-    font-family: 'Satisfy', cursive;
+    font-family: var(--text-gold);
     color: var(--text-color);
     font-size: 24px;
 }
@@ -18,7 +18,7 @@
     font-size: 58px;
     color: #27292b;
     line-height: 1.1;
-    font-family: Bebas Neue, cursive;
+    font-family: var(--text-title);
     font-weight: 400;
     letter-spacing: .02em;
 }
@@ -26,7 +26,7 @@
 .p_making__font {
     font-size: 19px;
     line-height: 1.5;
-    font-family: Roboto, sans-serif;
+    font-family: var(--text-content);
     font-weight: 500;
     color: var(--color-gray);
 
@@ -35,7 +35,7 @@
 .p_making_coffee_fonts {
     font-size: 17px;
     line-height: 1.5;
-    font-family: Roboto, sans-serif;
+    font-family: var(--text-content);
     font-weight: 400;
     color: var(--color-gray);
 }
@@ -43,7 +43,7 @@
 .h3_master_coffee_making {
     font-size: 34px;
     line-height: 1.2;
-    font-family: Bebas Neue, cursive;
+    font-family: var(--text-title);
     font-weight: 400;
     letter-spacing: .02em;
     color: var(--color-gray);
@@ -54,7 +54,7 @@
     font-weight: 500;
     color: #fff;
     background-color: var(--text-color);
-    font-family: Roboto, sans-serif;
+    font-family: var(--text-content);
     text-align: center;
     background-position: 50%;
     cursor: pointer;

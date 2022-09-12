@@ -6,7 +6,7 @@
 }
 
 .h2_team {
-    font-family: Bebas Neue, cursive;
+    font-family: var(--text-title);
     font-weight: 400;
     text-transform: none;
     text-decoration: none;
@@ -19,7 +19,7 @@
 .h2_team_name {
     font-size: 34px;
     line-height: 1.2;
-    font-family: Bebas Neue, cursive;
+    font-family: var(--text-title);
     font-weight: 400;
     color: var(--text-color);
     letter-spacing: .02em;
@@ -27,7 +27,7 @@
 }
 
 .fonts_logo_team {
-    font-family: 'Satisfy', cursive;
+    font-family: var(--text-gold);
     color: var(--text-color);
     font-size: 24px;
 }
@@ -35,7 +35,7 @@
 .p_font_team {
     font-size: 19px;
     line-height: 1.5;
-    font-family: Roboto, sans-serif;
+    font-family: var(--text-content);
     font-weight: 500;
     color: var(--color-gray);
 }
@@ -52,7 +52,7 @@
 .team_fonts_p {
     font-size: 17px;
     line-height: 1.5;
-    font-family: Roboto, sans-serif;
+    font-family: var(--text-content);
     font-weight: 400;
     color: var(--color-gray);
 }
