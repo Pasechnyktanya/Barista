@@ -8,22 +8,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--text-color) ;
-    
+    color: var(--text-color);
+
 }
+
 .video__text {
     color: white !important;
     font-size: 58px;
-   
+
     line-height: 1.1;
-    font-family: Bebas Neue,cursive;
+    font-family: Bebas Neue, cursive;
     font-weight: 400;
     text-transform: none;
     text-decoration: none;
     font-style: normal;
     letter-spacing: .02em;
-    
+
 }
+
 .fonts_logo_video {
     font-family: 'Satisfy', cursive;
     /* color: var(--text-color); */
