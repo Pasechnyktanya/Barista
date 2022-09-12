@@ -23,3 +23,21 @@ img {
   
     
 }
+.little__title {
+    color: var(--text-color);
+    font-family: var(--text-gold);
+    font-size: 28px;
+    padding: 5px 0 0;
+    
+}
+.about__title {
+    font-family: var(--text-title);
+    font-size: 58px;
+    font-weight: 300;
+    margin: 0;
+}
+.shot__line {
+    display: block;
+    border-bottom: 3px solid var(--text-color);
+    width: 35px;
+}
