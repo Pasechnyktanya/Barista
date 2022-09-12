@@ -66,7 +66,7 @@
 }
 .accordion__triger {
     display: block;
-    font-family: 'Bebas Neue';
+    font-family: var(--text-title);
     font-size: 26px;
     padding: 14px 0 14px 0;
     

@@ -3,14 +3,14 @@
 
 
 
-
-.little__title {
-    color: var(--text-color);
-    font-family: var(--text-gold);
-    font-size: 28px;
-    
+.what__our__students__say {
+    font-family: var(--text-content);
 }
-.what__students__say {
+.about__course__time {
+    font-size: 19px;
+}
+.what__say__card__name {
     font-family: var(--text-title);
-   
+    font-size: 26px;
+    padding: 14px 0 14px 0;
 }
