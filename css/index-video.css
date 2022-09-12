@@ -1,0 +1,24 @@
+.video {
+    background-image: url(/img/photo_video.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   color: #c7a17a;
+}
+.video__text {
+    color: white !important;
+    font-size: 58px;
+   
+    line-height: 1.1;
+    font-family: Bebas Neue,cursive;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .02em;
+    
+}

@@ -1,0 +1,14 @@
+.hr_logo_team {
+    height: 3px;
+    width: 55px;
+    background-color: #c7a17a;
+   
+}
+.h2_team {
+    font-family: Bebas Neue,cursive;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .02em;
+}
