@@ -1,25 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-
-
 .about__our__courses {
-    background-image: url(/img/background_section_about.png);
+    display: flex;
+    background: linear-gradient(rgba(39,41,43, 0.7),rgba(39,41,43, 10)), url(/img/background_section_about.png);
     background-size: 100% auto;
-    background-color: rgb(35, 36, 38, 0.6);
-    color: rgb(225, 225, 225);
+    background-color: var(--color-gray);
+    color: var(--color-white);
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-family: var(--text-content);
     font-size: 17px;
     position: relative;
-    padding: 0px 0 0px 0;
-}
-.dark__filter {
-    background-color: rgba(0,0,0,0.8);
-    display: flex; /* temporary*/
     padding: 140px 0 140px 0;
 }
+
 
 .about__our__inner {
     flex-basis: 66%;
@@ -28,7 +20,7 @@
 }
 .info__about__course {
     flex-basis: 33%;    
-    color: rgb(225, 225, 225);    
+    color: var(--color-white);    
     padding: 0 40px 0 40px;
     margin-left: 0 0 0 20px;
 }
@@ -62,7 +54,7 @@
 }
 .btn__select__course {
     background-color: var(--text-color);
-    color: rgb(255, 255, 255);
+    color: var(--color-white);
     text-decoration: none;
     padding: 10px;
     margin-top: 20px;
@@ -111,4 +103,5 @@
     
 .about__our__courses {
     background-size: auto 100% ;
+}
 }
