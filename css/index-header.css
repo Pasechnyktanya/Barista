@@ -1,8 +1,25 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Space+Mono&display=swap');*/
-
 .header {
+    margin: 0 213px 0 213px;
+    padding: 30px 15px 30px 15px;
     background-color: beige;
+    vertical-align: baseline;
+}
+
+.header__up {
+    display: flex;
+    justify-content: space-between;
     
+}
+
+.header__list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.header__list__social {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .header__container {
@@ -22,9 +39,3 @@
     font-family: 'Satisfy';
     font-size: 24px;
 }
-
-/*.under__header__hr {
-    background-color: #c7a17a;
-    height: 3px;
-    width: 4%;
-}*/
