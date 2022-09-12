@@ -20,12 +20,15 @@
     line-height: 1.5;
     font-family: Roboto,sans-serif;
     font-weight: 500;
+    color: var(--color-gray);
+    
 }
 .p_making_coffee_fonts {
     font-size: 17px;
     line-height: 1.5;
     font-family: Roboto,sans-serif;
     font-weight: 400;
+    color: var(--color-gray);
 }
 .h3_master_coffee_making {
     font-size: 34px;
@@ -33,6 +36,7 @@
     font-family: Bebas Neue,cursive;
     font-weight: 400;
     letter-spacing: .02em;
+    color: var(--color-gray);
     
 }
 .btn_making_learn_more {

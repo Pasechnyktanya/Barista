@@ -26,6 +26,6 @@
 }
 .fonts_logo_video {
     font-family: 'Satisfy', cursive;
-    color: var(--text-color);
+    /* color: var(--text-color); */
     font-size: 24px;
 }

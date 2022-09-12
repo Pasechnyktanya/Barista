@@ -13,6 +13,16 @@
     font-style: normal;
     letter-spacing: .02em;
     font-size: 58px;
+    color: var(--color-gray);
+}
+.h2_team_name {
+    font-size: 34px;
+    line-height: 1.2;
+    font-family: Bebas Neue,cursive;
+    font-weight: 400;
+    color: var(--text-color);
+    letter-spacing: .02em;
+    
 }
 
 .fonts_logo_team {
@@ -26,20 +36,13 @@
     line-height: 1.5;
     font-family: Roboto, sans-serif;
     font-weight: 500;
+    color: var(--color-gray);
 }
 
 .img_team {
     width: 558px;
 }
-.h2_team {
-    font-size: 34px;
-    line-height: 1.2;
-    font-family: Bebas Neue,cursive;
-    font-weight: 400;
-    color: var(--text-color);
-    letter-spacing: .02em;
-    
-}
+
 .hr_team {
     height: 1px;
     width: 50%;
@@ -49,6 +52,7 @@
     line-height: 1.5;
     font-family: Roboto,sans-serif;
     font-weight: 400;
+    color: var(--color-gray);
 }
 .icon_team {
     width: 30px;
