@@ -13,19 +13,36 @@
     line-height: 1.1;
     font-family: Bebas Neue,cursive;
     font-weight: 400;
-    text-transform: none;
-    text-decoration: none;
-    font-style: normal;
     letter-spacing: .02em;
+}
+.p_making__font {
+    font-size: 19px;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+}
+.p_making_coffee_fonts {
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
 }
 .h3_master_coffee_making {
     font-size: 34px;
     line-height: 1.2;
     font-family: Bebas Neue,cursive;
     font-weight: 400;
-    text-decoration: none;
-    font-style: normal;
     letter-spacing: .02em;
-    color: #27292b;
-    text-transform: none;
+    
+}
+.btn_making_learn_more {
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--text-color);
+    font-family: Roboto,sans-serif;
+    text-align: center;
+    background-position: 50%;
+    cursor: pointer;
+    padding: 18px 30px;
+    display: inline-block;    
 }
