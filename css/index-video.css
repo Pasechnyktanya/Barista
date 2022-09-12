@@ -3,11 +3,13 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    min-height: 500px;
+    height: 750px;
+    font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: center;
-   color: #c7a17a;
+    color: var(--text-color) ;
+    
 }
 .video__text {
     color: white !important;

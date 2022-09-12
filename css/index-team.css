@@ -11,9 +11,19 @@
     text-decoration: none;
     font-style: normal;
     letter-spacing: .02em;
+    font-size: 58px;
 }
 .fonts_logo_team {
     font-family: 'Satisfy', cursive;
     color: var(--text-color);
     font-size: 24px;
+}
+.p_font_team {
+    font-size: 19px;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+}
+.img_team {
+    width: 558px;
 }
