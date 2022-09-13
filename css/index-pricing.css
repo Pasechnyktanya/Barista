@@ -55,3 +55,23 @@
 .img-above-pricing {
     background-color: var(--background-dark);
 }
+
+@media screen and (max-width: 992px) {
+    .about__course__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        height: auto;
+        width: max-content;
+        margin: 20px 0 20px 0; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about__course__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+        width: max-content;
+        margin: 20px 0 20px 0; 
+    }
+}
