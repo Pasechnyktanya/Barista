@@ -1,0 +1,53 @@
+.our__pricing__plans {
+    margin: 0 217.5px 0 217/5px;
+    padding: 0 190px 0 190px;
+    border: 40px 0 40px 0;
+}
+
+.about__course__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 673px;
+    margin: 90px 0 90px 0;
+        
+}
+
+.about__course {
+    background-color: var(--cards-color);
+    margin: 15px;
+    padding-left: 25px;
+}
+
+.our__pricing__plans__block {
+    display: grid;
+    justify-items: center; 
+    align-items: center;
+
+}
+
+.our__pricing__plans {
+    background-color: var(--background-dark);
+}
+
+.frame__under__prising {
+    position: relative;
+    background-image: url(../img/background-under-prising.svg);
+    background-color: black;
+}
+
+.pricing {
+    font-family: satisfy;
+    font-size: 24px;
+}
+
+.pricing, .about__course__price {
+    color: var(--text-color);
+}
+
+.list__about__course {
+    list-style: none;
+}
+
+.button {
+    background-color: var(--text-color);
+}
