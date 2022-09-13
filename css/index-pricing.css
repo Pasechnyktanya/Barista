@@ -51,3 +51,7 @@
 .button {
     background-color: var(--text-color);
 }
+
+.img-above-pricing {
+    background-color: var(--background-dark);
+}
