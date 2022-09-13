@@ -84,6 +84,21 @@ color: var(--light-text-color);
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        
+    }
+
+    .header__container {
+        justify-content: left;
+        padding: 20px;
+    }
+         
+}
+
+@media screen and (max-width: 768px) {
+    .header__up, .header__list, .header__list__social  {
+        display: grid;
+        grid-template-columns: 1fr;
+        
     }
 
     .header__container {
