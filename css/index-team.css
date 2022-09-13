@@ -61,3 +61,19 @@
     width: 30px;
     height: 30px;
 }
+.outer_bDW {
+    color: var(--text-content);
+}
+.facebook {
+    color: var(--text-color);
+    font-size: 30px;
+    
+}
+.instagram {
+    color: var(--text-color);
+    font-size: 30px;
+}
+.youtube {
+    color: var(--text-color);
+    font-size: 30px;
+}
