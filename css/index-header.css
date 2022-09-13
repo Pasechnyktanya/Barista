@@ -77,3 +77,18 @@ color: var(--light-text-color);
     font-family: 'Satisfy';
     font-size: 24px;
 }
+
+@media screen and (max-width: 992px) {
+    .header__up, .header__list, .header__list__social  {
+        justify-content: baseline;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .header__container {
+        justify-content: left;
+        padding: 20px;
+    }
+         
+}
