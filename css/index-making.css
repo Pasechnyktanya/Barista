@@ -11,26 +11,30 @@
     font: inherit;
     vertical-align: baseline;
     padding: 0px 15px 0px 15px;
-    
-   
-   
-    
 }
 
 .fonts_logo_making {
+    display: block;
     font-family: var(--text-gold);
     color: var(--text-color);
     font-size: 24px;
+    line-height: 26px;
+    margin-top: 20px;
+    
+
+
 }
 
 .h2_master_coffee_making {
     font-size: 58px;
-    color: #27292b;
+    color: var(--color-gray);
     line-height: 1.1;
     font-family: var(--text-title);
     font-weight: 400;
     letter-spacing: .02em;
+    margin: 20px 0px 0px 0px;
 }
+
 
 .p_making__font {
     font-size: 19px;
@@ -38,6 +42,7 @@
     font-family: var(--text-content);
     font-weight: 500;
     color: var(--color-gray);
+    margin: 25px 0px 0px 0px;
 
 }
 
@@ -47,6 +52,15 @@
     font-family: var(--text-content);
     font-weight: 400;
     color: var(--color-gray);
+    margin: 25px 0px 0px 0px;
+}
+.p_making_coffee_fonts_h3 {
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: var(--text-content);
+    font-weight: 400;
+    color: var(--color-gray);
+    margin: 25px 0px 0px 0px;
 }
 
 .h3_master_coffee_making {
@@ -70,6 +84,7 @@
     padding: 18px 30px;
     display: inline-block;
 }
+
 .master-coffe-making {
     margin: 0;
     font-size: 100%;
@@ -77,8 +92,10 @@
     /* vertical-align: baseline; */
     box-sizing: border-box;
     padding: 90px 24px 90px 24px;
-    display: block;
+    /* display: block; */
+    position: relative;
 }
+
 .column__making-coffee {
     margin: 0;
     padding: 0px 10px 0px 10px;
@@ -86,8 +103,14 @@
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    
+    justify-content: center;
+    min-width: 320px;
+    line-height: 1;
+
+
+
 }
+
 .column_making-learn-more {
     margin: 0;
     padding: 0px 10px 0px 10px;
@@ -96,9 +119,63 @@
     font: inherit;
     vertical-align: baseline;
 }
+
 @media (min-width: 754px) {
     .master-coffe-making {
         display: flex;
+        max-width: 1280px;
+        padding: 90px 15px 120px 15px;
+        margin: 0px 40px 0px 40px;
+        
     }
-}
 
+    .image__making {
+        width: 470px;
+        min-height: 445px;
+        padding: 0px 15px 0px 15px;
+        
+    }
+    .h2_master_coffee_making {
+        flex-basis: 25%;
+    max-width: 25%;
+    margin-top: 20px;
+    margin-left: 15px;
+    
+    }
+    .column__making-coffee {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .column_making-learn-more {
+        padding: 0px 15px 0px 15px;
+        
+    }
+    /* .hr_logo_making {
+        padding: 15px 0px 15px 0px;
+        height: 3px;
+        width: 55px;
+        background-color: var(--text-color);
+    
+
+    } */
+    
+    .btn_making_learn_more {
+        margin-top: 40px;
+    }
+    .p_making__font {
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+    .p_making_coffee_fonts {
+        margin-top: 25px;
+        margin-left: 15px;
+
+    }
+    .fonts_logo_making {
+        margin-left: 15px;
+    }
+    .h3_master_coffee_making {
+        margin-top: 25px;
+    }
+    
+}
