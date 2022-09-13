@@ -4,18 +4,31 @@
     border: 40px 0 40px 0;
 }
 
+.our__pricing__plans__header {
+    color: var(--light-text-color);
+    font-size: 58px;
+    font-family: 'Bebas neue';
+}
+
 .about__course__container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: 673px;
-    margin: 90px 0 90px 0;
+    margin: 50px 0 90px 0;
+    color: var(--light-text-color);
         
 }
 
 .about__course {
     background-color: var(--cards-color);
     margin: 15px;
-    padding-left: 25px;
+    padding: 35px 30px 35px 30px;
+}
+
+.about__pricing {
+    font-size: 19px;
+    font-family: 'roboto',serif;
+    color: var(--light-text-color);
 }
 
 .our__pricing__plans__block {
@@ -29,7 +42,7 @@
     background-color: var(--background-dark);
 }
 
-.frame__under__prising {
+.frame__under__pricing {
     position: relative;
     background-image: url(../img/background-under-prising.svg);
     background-color: black;
@@ -44,16 +57,53 @@
     color: var(--text-color);
 }
 
-.list__about__course {
-    list-style: none;
+.about__course__price {
+    padding: 20px 30px 55px 30px;
+    text-align: left;
+    font-family: 'roboto', serif;
 }
 
-.button {
-    background-color: var(--text-color);
+.list__about__course {
+    list-style: none;
+    height: 360;
+    padding: 35px 30px 35px 30px;
+    font-family: 'roboto', serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.button__pricing {
+   color: var(--light-text-color);
+   background-color: var(--text-color);
+   height: 15x;
+    width: auto;
+    border: none;
+    padding: 15px 26px 15px 26px;
+
 }
 
 .img-above-pricing {
     background-color: var(--background-dark);
+}
+
+.img__checked__menu {
+    display: inline;
+}
+
+.about__course__header {
+    padding-bottom: 35px;
+    padding-top: 30px;
+    text-align: center;
+    height: 75px;
+    font-family: 'roboto', serif;
+}
+
+.under__header-hr {
+    color: var(--text-color);
+    height: 3px;
+    width: 47px;
+    border: none;
+    margin-bottom: 15px;
 }
 
 @media screen and (max-width: 992px) {
@@ -64,6 +114,9 @@
         width: max-content;
         margin: 20px 0 20px 0; 
     }
+    .our__pricing__plans {
+        padding: 0 30px 0 30px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -72,6 +125,15 @@
         grid-template-columns: 1fr;
         height: auto;
         width: max-content;
-        margin: 20px 0 20px 0; 
+        margin: auto; 
+        align-items: center;
     }
+    .our__pricing__plans {
+        padding: 0 30px 0 30px;
+    }
+
+    .about__pricing {
+        width: fit-content;
+    }
+
 }
