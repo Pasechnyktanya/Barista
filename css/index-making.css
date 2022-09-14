@@ -1,16 +1,18 @@
 .hr_logo_making {
-    height: 3px;
-    width: 55px;
+    height: 5px;
+    width: 47px;
     background-color: var(--text-color);
+    margin-top: 20px;
+
 }
 
 .image__making {
     width: 366px;
-    min-height: 347px;
+    min-height: 346px;
     font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    padding: 0px 15px 0px 15px;
+
+
+
 }
 
 .fonts_logo_making {
@@ -20,29 +22,32 @@
     font-size: 24px;
     line-height: 26px;
     margin-top: 20px;
-    
-
-
+    max-width: 100%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 .h2_master_coffee_making {
-    font-size: 58px;
+    font-size: 38px;
     color: var(--color-gray);
     line-height: 1.1;
     font-family: var(--text-title);
     font-weight: 400;
     letter-spacing: .02em;
-    margin: 20px 0px 0px 0px;
-}
+    margin-top: 20px;
 
+}
 
 .p_making__font {
     font-size: 19px;
     line-height: 1.5;
     font-family: var(--text-content);
-    font-weight: 500;
-    color: var(--color-gray);
-    margin: 25px 0px 0px 0px;
+    font-weight: 400;
+    color: var(--text-color-gr);
+    margin-top: 25px;
+    min-width: 320px;
+    word-wrap: break-word;
+    z-index: 1;
 
 }
 
@@ -51,25 +56,38 @@
     line-height: 1.5;
     font-family: var(--text-content);
     font-weight: 400;
-    color: var(--color-gray);
-    margin: 25px 0px 0px 0px;
+    color: var(--color-text-gray-light);
+    margin-top: 25px;
+    min-width: 320px;
+    word-wrap: break-word;
+    z-index: 1;
 }
+
 .p_making_coffee_fonts_h3 {
     font-size: 17px;
     line-height: 1.5;
     font-family: var(--text-content);
     font-weight: 400;
-    color: var(--color-gray);
-    margin: 25px 0px 0px 0px;
+    color: var(--color-text-gray-light);
+    margin-top: 25px;
+    min-width: 320px;
+    word-wrap: break-word;
+    z-index: 1;
+
 }
 
 .h3_master_coffee_making {
-    font-size: 34px;
+    font-size: 28px;
     line-height: 1.2;
     font-family: var(--text-title);
     font-weight: 400;
     letter-spacing: .02em;
     color: var(--color-gray);
+    word-wrap: break-word;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .02em;
+    text-transform: none;
 
 }
 
@@ -83,22 +101,20 @@
     cursor: pointer;
     padding: 18px 30px;
     display: inline-block;
+    margin-top: 40px;
 }
 
-.master-coffe-making {
-    margin: 0;
-    font-size: 100%;
-    font: inherit;
-    /* vertical-align: baseline; */
-    box-sizing: border-box;
-    padding: 90px 24px 90px 24px;
-    /* display: block; */
-    position: relative;
+
+
+
+.columns_making__coffee {
+    margin-top: 50px;
+    flex-direction: column;
+
 }
 
 .column__making-coffee {
-    margin: 0;
-    padding: 0px 10px 0px 10px;
+    margin: 0px;
     border: 0;
     font-size: 100%;
     font: inherit;
@@ -112,70 +128,52 @@
 }
 
 .column_making-learn-more {
-    margin: 0;
-    padding: 0px 10px 0px 10px;
+    margin-top: 50px;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
 }
-
-@media (min-width: 754px) {
+ 
     .master-coffe-making {
+        margin: 0px 15px 0px 15px;
+        font-size: 100%;
+        font: inherit;
+        box-sizing: border-box;
+        padding: 90px 24px 90px 24px;
+        position: relative;
+        background-position: center;
         display: flex;
-        max-width: 1280px;
-        padding: 90px 15px 120px 15px;
-        margin: 0px 40px 0px 40px;
-        
+        flex-direction: column;
+        align-items: center;
+    
     }
 
-    .image__making {
-        width: 470px;
-        min-height: 445px;
-        padding: 0px 15px 0px 15px;
-        
-    }
-    .h2_master_coffee_making {
-        flex-basis: 25%;
-    max-width: 25%;
-    margin-top: 20px;
-    margin-left: 15px;
     
-    }
-    .column__making-coffee {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .column_making-learn-more {
-        padding: 0px 15px 0px 15px;
-        
-    }
-    /* .hr_logo_making {
-        padding: 15px 0px 15px 0px;
-        height: 3px;
-        width: 55px;
-        background-color: var(--text-color);
-    
+    @media (min-width: 700px) {
+        .container_making-coffee {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          flex: 1;
+          
+        }
+      }
+      @media (min-width: 700px) {
+        .columns_making__coffee {
+            display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          flex: 1;
+          
+        }
+      }
+      
 
-    } */
-    
-    .btn_making_learn_more {
-        margin-top: 40px;
-    }
-    .p_making__font {
-        margin-top: 25px;
-        margin-left: 15px;
-    }
-    .p_making_coffee_fonts {
-        margin-top: 25px;
-        margin-left: 15px;
 
-    }
-    .fonts_logo_making {
-        margin-left: 15px;
-    }
-    .h3_master_coffee_making {
-        margin-top: 25px;
-    }
-    
-}
+
+
+
+
