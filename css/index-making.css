@@ -105,20 +105,7 @@
 }
 
 
-.master-coffe-making {
-    margin: 0px 15px 0px 15px;
-    font-size: 100%;
-    font: inherit;
-    box-sizing: border-box;
-    padding: 90px 24px 90px 24px;
-    display: block;
-    position: relative;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
-}
 
 .columns_making__coffee {
     margin-top: 50px;
@@ -147,53 +134,23 @@
     font: inherit;
     vertical-align: baseline;
 }
-
-/* 
-@media (min-width: 754px) {
+@media (max-width: 414px) {
     .master-coffe-making {
+        margin: 0px 15px 0px 15px;
+        font-size: 100%;
+        font: inherit;
+        box-sizing: border-box;
+        padding: 90px 24px 90px 24px;
+        position: relative;
+        background-position: center;
         display: flex;
-        max-width: 1280px;
-        padding: 90px 15px 120px 15px;
-        margin: 0px 40px 0px 40px;
-        
-    }
-
-    .image__making {
-        width: 470px;
-        min-height: 445px;
-        padding: 0px 15px 0px 15px;
-        
-    }
-    .h2_master_coffee_making {
-        flex-basis: 25%;
-    max-width: 25%;
-    margin-top: 20px;
-    margin-left: 15px;
+        flex-direction: column;
+        align-items: center;
     
     }
-    .column__making-coffee {
-        padding-left: 15px;
-        padding-right: 15px;
-        
-    }
-    .column_making-learn-more {
-        padding: 0px 15px 0px 15px;
-        
-    }
-    .p_making__font {
-        margin-top: 25px;
-        margin-left: 15px;
-    }
-    .p_making_coffee_fonts {
-        margin-top: 25px;
-        margin-left: 15px;
+}
 
-    }
-    .fonts_logo_making {
-        margin-left: 15px;
-    }
-    .h3_master_coffee_making {
-        margin-top: 25px;
-    }
-    
-} */
+
+
+
+
