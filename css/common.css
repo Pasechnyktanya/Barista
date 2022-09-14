@@ -7,7 +7,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
 
 :root {
     --text-color: #c7a17a;
@@ -16,12 +18,16 @@
     --background-dark: #27292b;
     --cards-color: #2f3133;
     --light-text-color: rgb(255, 255, 238);
+    --color-text-gray-light:rgba(159, 159, 159);
+    --text-color-gr: rgba(91, 91, 91);
     --text-title: 'Bebas Neue';
     --text-content: 'Roboto', sans-serif;
     --text-gold: 'Satisfy';
 }
 img {
     display: block;
+    width: 100%;
+    
   
     
 }
