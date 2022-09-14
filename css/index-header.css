@@ -45,9 +45,9 @@ h1 {
 }
 
 .under__header {
-font-family: 'roboto',serif;
-font-size: 17px;
-color: var(--light-text-color);
+    font-family: 'roboto',serif;
+    font-size: 17px;
+    color: var(--light-text-color);
 }
 
 .svg-icon {
@@ -94,6 +94,10 @@ color: var(--light-text-color);
         font-size: 40%;
     }
          
+}
+
+.img__checked__menu {
+    width: 25px;
 }
 
 @media screen and (max-width: 768px) {

@@ -13,7 +13,7 @@
 .about__course__container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    height: 673px;
+    height: auto;
     margin: 50px 0 90px 0;
     color: var(--light-text-color);
         
@@ -106,11 +106,14 @@
     margin-bottom: 15px;
 }
 
+.img__logo {
+    width: 150px;
+}
+
 @media screen and (max-width: 992px) {
     .about__course__container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        height: auto;
         width: max-content;
         margin: 20px 0 20px 0; 
     }
@@ -123,7 +126,6 @@
     .about__course__container {
         display: grid;
         grid-template-columns: 1fr;
-        height: auto;
         width: max-content;
         margin: auto; 
         align-items: center;
