@@ -1,16 +1,22 @@
 .header {
+    margin-top: 10px;
     padding: 30px 15px 30px 15px;
-    background: url(../img/background-header.png);
+    background-image: url(../img/background-header.png);
     background-size: cover;
-    opacity: 0.7;
+    /*background: linear-gradient(rgba(10,10,10,1.1) rgba(0,0,0,0.1) url(../img/background-header.png));*/
     height: 938px;
     padding-left: 213px;     
     padding-right: 213px;
+    opacity: 0.7;
+    
 }
 
 .header__up {
+    position: absolute;
     display: flex;
     justify-content: space-between;
+    top: 30px;
+    
 }
 
 .header__list {
@@ -45,9 +51,9 @@ h1 {
 }
 
 .under__header {
-font-family: 'roboto',serif;
-font-size: 17px;
-color: var(--light-text-color);
+    font-family: 'roboto',serif;
+    font-size: 17px;
+    color: var(--light-text-color);
 }
 
 .svg-icon {
@@ -94,6 +100,10 @@ color: var(--light-text-color);
         font-size: 40%;
     }
          
+}
+
+.img__checked__menu {
+    width: 25px;
 }
 
 @media screen and (max-width: 768px) {
