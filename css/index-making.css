@@ -134,7 +134,7 @@
     font: inherit;
     vertical-align: baseline;
 }
-@media (max-width: 414px) {
+ 
     .master-coffe-making {
         margin: 0px 15px 0px 15px;
         font-size: 100%;
@@ -148,7 +148,30 @@
         align-items: center;
     
     }
-}
+
+    
+    @media (min-width: 700px) {
+        .container_making-coffee {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          flex: 1;
+          
+        }
+      }
+      @media (min-width: 700px) {
+        .columns_making__coffee {
+            display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-around;
+          flex: 1;
+          
+        }
+      }
+      
+
 
 
 

@@ -24,13 +24,13 @@
     --text-content: 'Roboto', sans-serif;
     --text-gold: 'Satisfy';
 }
-img {
+/* img {
     display: block;
     width: 100%;
     
   
     
-}
+} */
 .little__title {
     color: var(--text-color);
     font-family: var(--text-gold);
