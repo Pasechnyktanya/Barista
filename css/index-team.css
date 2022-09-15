@@ -4,29 +4,81 @@
     background-color: var(--text-color);
 
 }
+
 .team {
     padding-top: 90px;
     padding-bottom: 90px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+}
+
+@media (min-width:700px) {
+    .team {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}
+
+.team__column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .h2_team {
     font-family: var(--text-title);
     font-weight: 400;
-    text-transform: none;
+    /* text-transform: none;
     text-decoration: none;
-    font-style: normal;
+    font-style: normal; */
     letter-spacing: .02em;
-    font-size: 58px;
+    font-size: 38px;
     color: var(--color-gray);
+    /* margin-top: 20px; */
+    line-height: 1.1;
+}
+
+@media (min-width:700px) {
+    .h2_team {
+        font-size: 58px;
+        text-transform: none;
+        text-decoration: none;
+        font-style: normal;
+    }
+}
+
+.card_team {
+    border: 2px solid #f2f0ec;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+}
+
+@media (min-width:700px) {
+    .card_team {
+        display: flex;
+        flex-direction: row;
+
+    }
 }
 
 .h2_team_name {
-    font-size: 34px;
+    font-size: 28px;
     line-height: 1.2;
     font-family: var(--text-title);
     font-weight: 400;
     color: var(--text-color);
     letter-spacing: .02em;
+    margin-top: 20px;
 
 }
 
@@ -45,39 +97,83 @@
 }
 
 .img_team {
-    width: 558px;
+    width: 350px;
+    height: 235;
+}
+
+@media (min-width: 700px) {
+    .img_team {
+        width: 583px;
+        height: 399px;
+    }
 }
 
 .hr_team {
     height: 1px;
-    width: 50%;
+    width: 276px;
+
 }
+
+/* @media (min-width:700px) {
+    .hr_team {
+        width: 443;
+    }
+} */
 
 .team_fonts_p {
     font-size: 17px;
     line-height: 1.5;
     font-family: var(--text-content);
     font-weight: 400;
-    color: var(--color-gray);
+    color: var(--text-color-gray-text);
 }
 
 .icon_team {
     width: 30px;
     height: 30px;
 }
+
 .outer_bDW {
     color: var(--text-content);
 }
-.facebook {
+
+.team__facebook {
     color: var(--text-color);
     font-size: 30px;
-    
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+
 }
-.instagram {
+
+.team__instagram {
     color: var(--text-color);
     font-size: 30px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
 }
-.youtube {
+
+.team__youtube {
     color: var(--text-color);
     font-size: 30px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+.team__info {
+    padding: 39px 43px 39px 43px;
+}
+
+@media (min-width: 700px) {
+    .team__info {
+        padding: 60px 70px 60px 70px;
+
+    }
+}
+
+.our_team_card {
+    margin-top: 30px;
+}
+
+.team__icons {
+    margin-top: 30px;
 }
