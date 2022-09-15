@@ -4,6 +4,10 @@
     background-color: var(--text-color);
 
 }
+.team {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
 
 .h2_team {
     font-family: var(--text-title);
