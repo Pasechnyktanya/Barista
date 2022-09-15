@@ -1,18 +1,18 @@
 .hr_logo_making {
-    height: 5px;
-    width: 47px;
+    height: 3px;
+    width: 10%;
     background-color: var(--text-color);
     margin-top: 20px;
+}
 
+.fonts_logo_making {
+    --bs-body-font-family: var(--text-gold);
 }
 
 .image__making {
     width: 366px;
     min-height: 346px;
     font-size: 100%;
-
-
-
 }
 
 .fonts_logo_making {
@@ -35,7 +35,6 @@
     font-weight: 400;
     letter-spacing: .02em;
     margin-top: 20px;
-
 }
 
 .p_making__font {
@@ -48,7 +47,6 @@
     min-width: 320px;
     word-wrap: break-word;
     z-index: 1;
-
 }
 
 .p_making_coffee_fonts {
@@ -73,7 +71,6 @@
     min-width: 320px;
     word-wrap: break-word;
     z-index: 1;
-
 }
 
 .h3_master_coffee_making {
@@ -87,7 +84,6 @@
     text-decoration: none;
     font-style: normal;
     text-transform: none;
-
 }
 
 .btn_making_learn_more {
@@ -101,6 +97,13 @@
     padding: 18px 30px;
     display: inline-block;
     margin-top: 40px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--color-white);
+    background: var(--background-dark);
 }
 
 
@@ -198,6 +201,8 @@
         font-size: 58px;
         margin-top: 20px;
         text-align: center;
+        padding-left: 15px;
+
 
 
     }
@@ -209,16 +214,28 @@
     .fonts_logo_making {
         padding-left: 15px;
         padding-right: 15px;
+        margin-left: 15px;
+        font-size: 24px;
+        line-height: 26px;
+        padding-top: 0%;
+        margin-top: 0%;
+
+
+
+
     }
 
     .p_making__font {
         padding-left: 15px;
         padding-right: 15px;
+        margin-left: 15px;
+
     }
 
     .p_making_coffee_fonts {
         padding-left: 15px;
         padding-right: 15px;
+        margin-left: 15px;
     }
 
     .column_making-learn-more {

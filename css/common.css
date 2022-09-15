@@ -1,4 +1,4 @@
--@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Satisfy&family=Space+Mono&display=swap');
 
@@ -7,8 +7,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
+
 
 
 :root {
@@ -18,12 +18,13 @@
     --background-dark: #27292b;
     --cards-color: #2f3133;
     --light-text-color: rgb(255, 255, 238);
-    --color-text-gray-light:rgba(159, 159, 159);
+    --color-text-gray-light: rgba(159, 159, 159);
     --text-color-gr: rgba(91, 91, 91);
     --text-title: 'Bebas Neue';
     --text-content: 'Roboto', sans-serif;
     --text-gold: 'Satisfy';
 }
+
 /* img {
     display: block;
     width: 100%;
@@ -36,14 +37,15 @@
     font-family: var(--text-gold);
     font-size: 28px;
     padding: 5px 0 0;
-    
 }
+
 .about__title {
     font-family: var(--text-title);
     font-size: 58px;
     font-weight: 300;
     margin: 0;
 }
+
 .shot__line {
     display: block;
     border-bottom: 3px solid var(--text-color);
