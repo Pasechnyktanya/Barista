@@ -44,6 +44,12 @@
     font-family: 'roboto', sans-serif;
 }
 
+.nav__link:hover {
+    color: var(--light-text-color);
+    text-decoration: underline;
+    transition: 0.5ms;
+}
+
 h1 {
     color: var(--light-text-color);
     font-family: 'Bebas neue';

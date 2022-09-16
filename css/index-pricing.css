@@ -14,7 +14,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: auto;
-    margin: 50px 0 90px 0;
+    margin: 0 0 90px 0;
     color: var(--light-text-color);
         
 }
@@ -23,12 +23,19 @@
     background-color: var(--cards-color);
     margin: 15px;
     padding: 35px 30px 35px 30px;
+    font-family: 'roboto', sans-serif;
+    font-size: 17px;
+    font-stretch: 100%;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    
 }
 
 .about__pricing {
     font-size: 19px;
     font-family: 'roboto',serif;
     color: var(--light-text-color);
+    word-wrap: break-word;
 }
 
 .our__pricing__plans__block {
@@ -55,10 +62,11 @@
 
 .pricing, .about__course__price {
     color: var(--text-color);
+    
 }
 
 .about__course__price {
-    padding: 20px 30px 55px 30px;
+    padding-bottom: 0;
     text-align: left;
     font-family: 'roboto', serif;
 }
@@ -66,7 +74,7 @@
 .list__about__course {
     list-style: none;
     height: 360;
-    padding: 35px 30px 35px 30px;
+    padding: 15px 30px 35px 30px;
     font-family: 'roboto', serif;
     font-size: 17px;
     font-weight: 400;
@@ -91,11 +99,15 @@
 }
 
 .about__course__header {
-    padding-bottom: 35px;
+    padding-bottom: 60px;
     padding-top: 30px;
     text-align: center;
     height: 75px;
     font-family: 'roboto', serif;
+}
+
+ .cards__list:not(:first-child) {
+    padding-top: 15px;
 }
 
 .under__header-hr {
