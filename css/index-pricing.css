@@ -120,10 +120,6 @@
     margin-bottom: 15px;
 }
 
-.img__logo {
-    width: 150px;
-}
-
 @media screen and (max-width: 992px) {
     .about__course__container {
         display: grid;
