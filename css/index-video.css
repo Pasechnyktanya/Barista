@@ -1,5 +1,5 @@
 .video {
-    background: linear-gradient(rgba(39,41,43, 0.7),rgba(39,41,43, 10)), url(/img/photo_video.png);
+    background: linear-gradient(rgba(39,41,43, 0.8),rgba(39,41,43, 10)), url(../img/photo_video.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -10,6 +10,7 @@
     justify-content: center;
     color: var(--text-color);
     text-align: center;
+    min-width: 320px;
 }
 
 .video_make-coffee {

@@ -1,5 +1,5 @@
 .hr_logo_making {
-    height: 3px;
+    min-height: 3px;
     width: 10%;
     background-color: var(--text-color);
     margin-top: 20px;
