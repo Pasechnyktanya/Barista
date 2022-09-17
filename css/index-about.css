@@ -1,6 +1,6 @@
 .about__our__courses {
     display: flex;
-    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(/img/background_section_about.png);
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/background_section_about.png);
     background-size: 100% auto;
     color: var(--color-white);
     background-attachment: fixed;
