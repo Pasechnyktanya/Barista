@@ -1,16 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-
-
 .what__our__students__say {
     font-family: var(--text-content);
+    padding: 60px 20px 60px 20px;
+}
+.ws__say__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .about__course__time {
     font-size: 19px;
 }
-.what__say__card__name {
+.ws__carusel {
+    display: flex;
+    flex-direction: row;
+}
+.ws__card {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px 40px 20px;
+}
+.ws__card__name {
     font-family: var(--text-title);
     font-size: 26px;
+    text-align: start;
+    
     padding: 14px 0 14px 0;
+}
+
+.ws__card__course {
+    font-size: 15px;
+    text-align: start;
+    padding: 10px 0 10px 0;
+}
+
+.ws__content {
+    text-align: start;
+    padding: 10px 0 10px 0;
+}
+.ws__data {
+    color: var(--text-color);
+    font-size: 15px;
+    text-align: start;
+    padding: 10px 0 10px 0;
 }
