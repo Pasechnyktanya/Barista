@@ -5,9 +5,9 @@
     margin-top: 20px;
 }
 
-.fonts_logo_making {
+/* .fonts_logo_making {
     --bs-body-font-family: var(--text-gold);
-}
+} */
 
 .image__making {
     width: 366px;
@@ -97,7 +97,7 @@
     padding: 18px 30px;
     display: inline-block;
     margin-top: 40px;
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 .btn_making_learn_more[type="submit"]:hover {
