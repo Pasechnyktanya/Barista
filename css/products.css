@@ -11,8 +11,15 @@
   
 }
 #first_p_with_int-print {
-    font-family: 'Satisfy', cursive;
-    color: #c9a27c;
+    /* font-family: 'Satisfy', cursive;
+    color: #c9a27c; */
+    font-family: var(--text-gold);
+    color: var(--text-color);
+    font-size: 26px;
+    line-height: 1;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    letter-spacing: 0;
 }
 .photo_coffee{
     display:grid;
