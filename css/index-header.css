@@ -184,3 +184,19 @@ h1 {
     }
          
 }
+
+@media (max-width: 990px) {
+.nav__links__main__menu {
+    display: flex;
+    flex-direction: column;
+    }
+
+   .nav__social {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+      
+    }
+    
+}
