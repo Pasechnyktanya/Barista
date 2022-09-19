@@ -1,6 +1,6 @@
 .our__pricing__plans {
     margin: 0 217.5px 0 217/5px;
-    padding: 0 190px 0 190px;
+    padding: 0;
     border: 40px 0 40px 0;
 }
 
@@ -47,6 +47,8 @@
 
 .our__pricing__plans {
     background-color: var(--background-dark);
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .frame__under__pricing {
@@ -93,7 +95,13 @@
 }
 
 .img-above-pricing {
-    background-color: var(--background-dark);
+   /*background-color: var(--background-dark);*/
+    /*color: var(--background-dark);*/
+    fill: var(--background-dark);
+}
+
+.img-under-pricing {
+    background-color: var(--light-text-color);
 }
 
 .img__checked__menu {
