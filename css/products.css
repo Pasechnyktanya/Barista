@@ -1,5 +1,12 @@
 .our_fav_coffee_recipes{
     background-color: #f2f0ec;
+    display: block;
+    flex-direction: column;
+    font-size: 100%;
+    font: inherit;
+    box-sizing: border-box;
+    padding: 90px 24px 90px 24px;
+    align-items: left;
     
   
 }
@@ -7,6 +14,12 @@
     font-family: 'Satisfy', cursive;
     color: #c9a27c;
 }
+.photo_coffee{
+    display:grid;
+    grid-template-columns: 50% 25% 25%;
+    
+}
+
 #hr_after_p-y {
     width:15%;
     height: 3px;
@@ -69,7 +82,7 @@
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/photo_coffe_background.png);
     background-size:100% auto;
     width: 400px;
-    /* margin: auto; */
+    margin: 30px;
     color: var(--color-white);
     background-attachment:scroll;
     background-repeat: no-repeat;
@@ -79,12 +92,13 @@
     padding: 140px 0 140px 0;
 }
 .cheese_dessert{
+
     text-align: center;
     display: flex;
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/backgr_cheese_cake.png);
     background-size:100% auto;
     width: 400px;
-    /* margin: auto; */
+    margin: 30px;
     color: var(--color-white);
     background-attachment:scroll;
     background-repeat: no-repeat;
@@ -94,3 +108,63 @@
     text-align: center;
     padding: 140px 0 140px 0;
 }
+.our_fav_coffee_recipes{
+    display: block;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 100%;
+}
+
+@media (min-width: 500px) {
+     .our_fav_coffee_recipes{
+        display: block;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+        margin: 0px 15px 0px 15px;
+        font-size: 100%;
+        box-sizing: border-box;
+        padding: 90px 24px 90px 24px;
+        padding: 0px 15px 0px 15px;
+
+     }
+    }
+    .recipes{
+        display: block;
+    }
+    @media (max-width: 1200px) {
+        .photo_coffee{
+        
+           display: block;
+           flex-direction: row;
+           align-items: center;
+           justify-content: space-around;
+           flex: 1;
+           margin: 0px 15px 0px 15px;
+           font-size: 100%;
+           box-sizing: border-box;
+           padding: 90px 24px 90px 24px;
+           padding: 0px 15px 0px 15px;
+   
+        }
+       }
+
+       /* @media (min-width: 500px){
+        .recipes {
+            min-width: 270px;
+         margin: 0 15;
+       }
+    
+} */
+.our_fav_coffee_recipes{
+    display: block;
+        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+}
+/* .recipes{
+    display: block;
+} */
