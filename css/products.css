@@ -1,6 +1,6 @@
-.our_fav_coffee_recipes{
+#our_fav_coffee_recipes{
     background-color: #f2f0ec;
-    display: block;
+    display: flex;
     flex-direction: column;
     font-size: 100%;
     font: inherit;
@@ -23,7 +23,7 @@
 }
 .photo_coffee{
     display:grid;
-    grid-template-columns: 50% 25% 25%;
+    grid-template-columns:500px 500px;
     
 }
 
@@ -124,7 +124,7 @@
 }
 
 @media (min-width: 500px) {
-     .our_fav_coffee_recipes{
+     #our_fav_coffee_recipes{
         display: block;
         flex-direction: row;
         align-items: center;
@@ -141,7 +141,7 @@
     .recipes{
         display: block;
     }
-    @media (max-width: 1200px) {
+    @media (max-width: 990px) {
         .photo_coffee{
         
            display: block;
@@ -157,6 +157,12 @@
    
         }
        }
+       @media (min-width: 1200px) {
+        .container_our_f{
+       display: grid;
+       grid-template-columns: 20% 40% 40%;
+        }
+       }
 
        /* @media (min-width: 500px){
         .recipes {
@@ -165,7 +171,7 @@
        }
     
 } */
-.our_fav_coffee_recipes{
+#our_fav_coffee_recipes{
     display: block;
         flex-direction: column;
         flex-direction: row;
