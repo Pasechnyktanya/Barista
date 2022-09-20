@@ -1,0 +1,59 @@
+.container_remember_this {
+
+  
+    display: flex;
+
+    font-size: 100%;
+    font: inherit;
+    box-sizing: border-box;
+    padding: 90px 24px 90px 24px;
+    align-items: left;
+}
+.coffe_making{
+    display: flex;
+    margin: 10px;
+}
+.coffe_maker_text{
+    margin: 0px 10px;
+}
+.experienced_barista{
+    display: flex;
+    margin: 10px;
+}
+.experienced_barista_text{
+    margin: 0px 10px;
+}
+.classic_drinks{
+    display: flex;
+    margin: 10px;
+
+}
+.classic_drinks_texr{
+    margin: 0px 10px; 
+}
+.img_logo_f{
+margin-left: 10px;
+margin-right: 10px;
+}
+.remember_this__photo{
+    margin: 80px 30px; 
+}
+
+
+@media (max-width: 1000px) {
+.container_remember_this{
+       display: block;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-around;
+       flex: 1;
+       margin: 15px 15px 15px 15px;
+       font-size: 100%;
+       box-sizing: border-box;
+       padding: 90px 24px 90px 24px;
+       padding: 0px 15px 0px 15px;
+
+    }
+   }
+
+
