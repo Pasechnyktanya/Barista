@@ -3,8 +3,8 @@
     padding: 30px 15px 30px 15px;
     background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/background-header.png);
     background-size: cover;
-    padding-left: 213px;
-    padding-right: 213px;
+    /*padding-left: 213px;
+    padding-right: 213px;*/
     opacity: 0.85;
     margin: auto;
 
