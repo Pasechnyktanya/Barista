@@ -155,6 +155,10 @@ h1 {
         flex-wrap: wrap;
         
     }
+   .header__list__social {
+        margin-left: 0;
+    }
+
 
     .header__container {
         justify-self: center;
@@ -175,6 +179,9 @@ h1 {
         grid-template-columns: 1fr;
         
     }
+   .header__list__social {
+        margin-left: 0;
+    }
 
     .header__container {
         justify-self: center;
@@ -189,6 +196,9 @@ h1 {
 .nav__links__main__menu {
     display: flex;
     flex-direction: column;
+    }
+   .header__list__social {
+        margin-left: 0;
     }
 
    .nav__social {
