@@ -10,23 +10,22 @@
     font-size: 17px;
     line-height: 1.5;
     position: relative;
-    padding: 180px 0 180px 40px;
+    padding: 180px 20px 180px 20px;
 }
+
 .about__our__inner {
-    flex-basis: 50%;
+    flex-basis: 66%;
     padding: 20px 20px 20px 40px;
 }
 
-.about__course__info {
-    padding: 20px;
-}
+
 
 .info__about__course {
-    flex-basis: 50%;
+    flex-basis: 33%;
     color: var(--color-white);
-    padding: 40px 20px 20px 15%;
-    margin-left: 60px;
-    margin-right: 60px;
+    padding: 40px 20px 20px 5%;
+
+
 }
 
 .about__course__time {
@@ -34,13 +33,9 @@
 }
 
 .about__btn {
-    padding: 10px;
-    margin: 10px;
+    padding: 30px 0;
+    margin: 0;
 
-}
-
-.btn__choice {
-    display: inline-block;
 }
 
 .btn__select__course {
@@ -48,13 +43,17 @@
     color: var(--color-white);
     text-decoration: none;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
     border: 2px solid var(--text-color);
+}
+
+.btn__select__course:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
 }
 
 .btn__contact {
     color: var(--text-color);
-    ;
     text-decoration: none;
     padding: 10px;
     margin: 10px;
@@ -62,15 +61,12 @@
 
 }
 
-/* accordion*/
-.panell {
-    flex-basis: 32%;
-}
-
-.accordion__about {
-    flex-basis: 68%;
+.btn__contact:hover {
+    background-color: var(--text-color);
+    color: var(--color-white);
 
 }
+
 
 .accordion {
     --bs-accordion-color: var(--color-white);
@@ -82,7 +78,7 @@
     --bs-accordion-btn-color: var(--color-white);
     --bs-accordion-btn-bg: var(--bs-accordion-bg);
     --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='var%28--bs-body-color%29'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
-    --bs-accordion-btn-icon-transform: rotateZ(90deg);
+    --bs-accordion-btn-icon-transform: rotateZ(180deg);
     --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
     --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
     --bs-accordion-btn-focus-border-color: var(--color-none);
@@ -92,15 +88,16 @@
     --bs-accordion-active-bg: var(--color-none);
 
 }
+
 .accordion-button:not(.collapsed)::after {
-    background-image: var(--color-white); 
+    background-image: var(--color-white);
     transform: var(--bs-accordion-btn-icon-transform);
 }
 
 
 .accordion-button {
-    font-family: var(--text-titlle);
-    font-size: 26px;
+    font-family: var(--text-title);
+    font-size: 28px;
 }
 
 .accordion__about__item {
@@ -132,20 +129,64 @@
 .accordion__item__input:checked~.accordion__about__content {
     display: block;
 }
+
 @media screen and (max-width: 992px) {
+    .ab__our__courses {
+        padding: 100px 0;
+    }
+
+    .about__title {
+        font-size: 38px;
+    }
+
     .about__our__courses {
         padding: 140px 0 140px 0;
     }
-    .about__course__time {
-        font-size: 14px;
+
+    .about__our__inner {
+        flex-basis: 60%;
+        padding: 20px 0 20px 20px;
+    }
+
+    .info__about__course {
+        flex-basis: 40%;
+        padding: 40px 20px 20px 5%;
+    }
+
+
+    .about__btn {
+        padding: 20px 10px 20px 0;
+        margin: 10px 10px 10px 0;
+
+    }
+
+    .btn__select__course {
+        padding: 10px;
+        margin-left: 0;
+
     }
 }
+
 @media screen and (max-width: 768px) {
-    .about__our__courses {
+    .ab__our__courses {
         display: grid;
         grid-template-columns: 1fr;
         background-size: auto;
     }
+
+    .about__our__inner {
+        padding: 20px;
+    }
+
+    .info__about__course {
+        padding: 20px;
+        margin: 0;
+    }
+
+    .accordion-button {
+        font-size: 24px;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
@@ -157,8 +198,14 @@
     .about__course__time {
         font-size: 14px;
     }
-    .btn__choice {
-        display: flex;
-        flex-direction: row;
+
+    .about__btn {
+        font-size: 15px;
+        display: block;
+
+    }
+
+    .about__course__time {
+        font-size: 14px;
     }
 }
