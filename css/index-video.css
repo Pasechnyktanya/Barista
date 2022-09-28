@@ -1,5 +1,5 @@
 .video {
-    background: linear-gradient(rgba(39,41,43, 0.8),rgba(39,41,43, 10)), url(../img/photo_video.png);
+    background: linear-gradient(rgba(39, 41, 43, 0.8), rgba(39, 41, 43, 10)), url(../img/photo_video.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -19,12 +19,19 @@
 
 }
 
+.clock-video {
+    padding-top: 50px;
+    font-size: 50px;
+
+}
+
 @media (min-width: 700px) {
     .video_make-coffee {
         padding-top: 280px;
         padding-bottom: 280px;
     }
 }
+
 #video__text {
     color: var(--color-white);
     font-size: 38px;
@@ -47,16 +54,16 @@
 
 @media (min-width:700px) {
     #video__text {
-    color: var(--color-white);
-    font-size: 58px;
-    line-height: 1.1;
-    font-family: var(--text-title);
-    font-weight: 400;
-    text-transform: none;
-    text-decoration: none;
-    font-style: normal;
-    letter-spacing: .02em;
-    text-align: center;
+        color: var(--color-white);
+        font-size: 58px;
+        line-height: 1.1;
+        font-family: var(--text-title);
+        font-weight: 400;
+        text-transform: none;
+        text-decoration: none;
+        font-style: normal;
+        letter-spacing: .02em;
+        text-align: center;
     }
 }
 
@@ -65,8 +72,3 @@
     font-size: 24px;
     text-align: center;
 }
-
-
-
-
-
