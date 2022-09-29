@@ -1,7 +1,7 @@
 #our_fav_coffee_recipes {
     background-color: #f2f0ec;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     font-size: 100%;
     align-items: center;
     font: inherit;
@@ -24,7 +24,7 @@
     display: grid;
     grid-template-columns: 500px 500px;
     align-items: center;
-  
+
 }
 
 #hr_after_p-y {
@@ -63,16 +63,26 @@
 .coffe_making img {
     width: 60px;
     height: 60px;
+    border-radius: 50%;
+    background-color:#f2f0ec;
+    padding: 10px;
 }
 
 .experienced_barista img {
     width: 60px;
-    height: 60px
+    height: 60px;
+    border-radius: 50%;
+    background-color:#f2f0ec;
+    padding: 10px;
 }
 
 .classic_drinks img {
     width: 60px;
-    height: 60px
+    height: 60px;
+    border-radius: 50%;
+    background-color:#f2f0ec;
+    padding: 10px;
+    
 }
 
 .remember_this__two-big-photos {
@@ -213,8 +223,8 @@
     align-items: center;
     justify-content: space-around;
     padding-top: 50px;
-    padding-bottom:20px;
-   
+    padding-bottom: 20px;
+
 }
 
 /* .recipes{
@@ -245,6 +255,7 @@
     color: gray;
     background-color: white;
 }
-.container_our_f{
+
+.container_our_f {
     margin: auto;
 }
