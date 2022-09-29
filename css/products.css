@@ -1,15 +1,17 @@
-#our_fav_coffee_recipes{
+#our_fav_coffee_recipes {
     background-color: #f2f0ec;
     display: flex;
     flex-direction: column;
     font-size: 100%;
+    /* align-items: center; */
     font: inherit;
     box-sizing: border-box;
     padding: 90px 24px 90px 24px;
-    align-items: left;
-    
-  
+    align-items: center;
+
+
 }
+
 #first_p_with_int-print {
     /* font-family: 'Satisfy', cursive;
     color: #c9a27c; */
@@ -21,93 +23,107 @@
     margin-block-end: 1em;
     letter-spacing: 0;
 }
-.photo_coffee{
-    display:grid;
-    grid-template-columns:500px 500px;
-    
+
+.photo_coffee {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    align-items: center;
 }
 
 #hr_after_p-y {
-    width:15%;
+    width: 15%;
     height: 3px;
     background-color: #c9a27c;
     justify-content: left;
 }
+
 .recipes__proposal {
     color: #5b5b5b;
-   font-size: x-large;
+    font-size: x-large;
 }
-.recipes__info{
+
+.recipes__info {
     color: #868686;
     font-size: inherit;
 }
+
 #coffee_background {
     width: 300px;
     height: 300px;
-    background-color: rgba(0,0,0,0.8);
-}
-#cheese_dessert{
-    width: 300px;
-    height: 300px; 
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-.remember_this p{
+#cheese_dessert {
+    width: 300px;
+    height: 300px;
+}
+
+.remember_this p {
     color: #868686;
     font-size: inherit;
 }
-.coffe_making img{
+
+.coffe_making img {
     width: 60px;
-    height: 60px; 
+    height: 60px;
 }
-.experienced_barista img{
-    width: 60px;
-    height: 60px
-}
-.classic_drinks img{
+
+.experienced_barista img {
     width: 60px;
     height: 60px
 }
-.remember_this__two-big-photos{
+
+.classic_drinks img {
+    width: 60px;
+    height: 60px
+}
+
+.remember_this__two-big-photos {
     width: 600px;
     height: 600px
 }
-.few_things{
+
+.few_things {
     color: #5b5b5b;
-   font-size: x-large;
+    font-size: x-large;
 }
-.remember_this__features h2{
+
+.remember_this__features h2 {
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 3px;
 }
-.recipes_our_fav{
+
+.recipes_our_fav {
     font-family: 'Bebas Neue', cursive;
     letter-spacing: 3px;
 }
-.cold_latte{
+
+.cold_latte {
     text-align: center;
     display: flex;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/photo_coffe_background.png);
-    background-size:100% auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/photo_coffe_background.png);
+    background-size: 100% auto;
     width: 400px;
     margin: 30px;
     color: var(--color-white);
-    background-attachment:scroll;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     font-family: var(--text-content);
     font-size: 19px;
     position: relative;
     padding: 140px 0 140px 0;
 }
-.cheese_dessert{
+
+.cheese_dessert {
 
     text-align: center;
     display: flex;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../img/backgr_cheese_cake.png);
-    background-size:100% auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/backgr_cheese_cake.png);
+    background-size: 100% auto;
     width: 400px;
     margin: 30px;
     color: var(--color-white);
-    background-attachment:scroll;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     font-family: var(--text-content);
     font-size: 19px;
@@ -115,7 +131,8 @@
     text-align: center;
     padding: 140px 0 140px 0;
 }
-.our_fav_coffee_recipes{
+
+.our_fav_coffee_recipes {
     display: block;
     flex-direction: column;
     padding-left: 10px;
@@ -123,8 +140,8 @@
     font-size: 100%;
 }
 
-@media (min-width: 500px) {
-     #our_fav_coffee_recipes{
+@media (min-width: 300px) {
+    #our_fav_coffee_recipes {
         display: block;
         flex-direction: row;
         align-items: center;
@@ -136,48 +153,96 @@
         padding: 90px 24px 90px 24px;
         padding: 0px 15px 0px 15px;
 
-     }
     }
-    .recipes{
-        display: block;
-    }
-    @media (max-width: 990px) {
-        .photo_coffee{
-        
-           display: block;
-           flex-direction: row;
-           align-items: center;
-           justify-content: space-around;
-           flex: 1;
-           margin: 0px 15px 0px 15px;
-           font-size: 100%;
-           box-sizing: border-box;
-           padding: 90px 24px 90px 24px;
-           padding: 0px 15px 0px 15px;
-   
-        }
-       }
-       @media (min-width: 1200px) {
-        .container_our_f{
-       display: grid;
-       grid-template-columns: 20% 40% 40%;
-        }
-       }
+}
 
-       /* @media (min-width: 500px){
+@media (min-width: 500px) {
+    #our_fav_coffee_recipes {
+        display: block;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+        margin: 0px 15px 0px 15px;
+        font-size: 100%;
+        box-sizing: border-box;
+        padding: 90px 24px 90px 24px;
+        padding: 0px 15px 0px 15px;
+
+    }
+}
+
+.recipes {
+    display: block;
+}
+
+@media (max-width: 990px) {
+    .photo_coffee {
+
+        display: block;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+        margin: 0px 15px 0px 15px;
+        font-size: 100%;
+        box-sizing: border-box;
+        padding: 90px 24px 90px 24px;
+        padding: 0px 15px 0px 15px;
+
+    }
+}
+
+@media (min-width: 1200px) {
+    .container_our_f {
+        display: grid;
+        grid-template-columns: 20% 40% 40%;
+    }
+}
+
+/* @media (min-width: 500px){
         .recipes {
             min-width: 270px;
          margin: 0 15;
        }
     
 } */
-#our_fav_coffee_recipes{
+#our_fav_coffee_recipes {
     display: block;
-        flex-direction: column;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
+    flex-direction: column;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
+
 /* .recipes{
     display: block;
 } */
+.button_cheese_dessert_open {
+    color: white;
+    background-color: #c9a27c;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.button_cheese_dessert_open:hover {
+    color: gray;
+    background-color: white;
+}
+
+.button_cold_latte_open {
+    color: white;
+    background-color: #c9a27c;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.button_cold_latte_open:hover {
+    color: gray;
+    background-color: white;
+}
+.container_our_f{
+    margin: auto;
+}

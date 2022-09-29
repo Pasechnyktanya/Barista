@@ -1,4 +1,3 @@
-
 const button = document.getElementById("color_a");
 button.addEventListener("click", checkTect);
 function checkTect(){
