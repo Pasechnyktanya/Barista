@@ -213,6 +213,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding-top: 10px;
+    padding-right: 50px;
 }
 
 /* .recipes{
