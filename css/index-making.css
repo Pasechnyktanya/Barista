@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     font-size: 100%;
-    font: inherit;
+    /* font: inherit; */
     box-sizing: border-box;
     padding: 90px 24px 90px 24px;
     align-items: left;
@@ -15,9 +15,9 @@
     /* font-size: 100%; */
     width: 100%;
     height: 100%;
-    /* object-fit: contain;
-    object-position: 50% 50%; */
-    
+    object-fit: contain;
+    object-position: 50% 50%;
+
 }
 
 .columns_making__coffee {
@@ -145,7 +145,6 @@
     .container_making-coffee {
         display: flex;
         flex-direction: row;
-        align-items: center;
         justify-content: space-around;
         flex: 1;
         margin: 0px 15px 0px 15px;
@@ -153,19 +152,21 @@
         box-sizing: border-box;
         padding: 90px 24px 90px 24px;
         padding: 0px 15px 0px 15px;
-        
+        overflow-x: hidden;
+
 
 
     }
 
     .columns_making__coffee {
         display: flex;
-        flex-direction: column;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
         flex: 1;
-        
+        /* box-sizing: border-box; */
+        /* overflow-x: hidden; */
+
     }
 
     .image__making {
@@ -175,6 +176,12 @@
         height: 100%;
         object-fit: contain;
         object-position: 50% 50%;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+
+
+
     }
 
     .column__making-coffee {
@@ -183,6 +190,8 @@
         flex-basis: 100%;
         max-width: 100%;
         margin-top: 0px;
+        overflow-x: hidden;
+        /* padding-top: 50px; */
     }
 
     .h2_master_coffee_making {
@@ -190,13 +199,14 @@
         max-width: 25%;
         margin-top: 20px;
         margin-left: 15px;
-        font-size: 58px;
+
         margin-top: 20px;
     }
 
     .fonts_logo_making {
         padding-left: 15px;
         padding-right: 15px;
+
     }
 
     .p_making__font {
@@ -217,8 +227,16 @@
         margin-top: 0%;
     }
 
+
+}
+
+@media (min-width: 980px) {
     .h3_master_coffee_making {
         font-size: 34px;
 
+    }
+
+    .h2_master_coffee_making {
+        font-size: 58px;
     }
 }

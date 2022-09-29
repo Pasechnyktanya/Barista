@@ -62,7 +62,7 @@
             <span class="about__course__price">
                 ${product.price}
             </span>
-            <ul class="list__about__course">
+           <ul class="list__about__course">
                 <li class="cards__list"><img class="img__checked__menu" src="img/checked__menu.svg"
                         alt="checked menu" class="img__checked__menu">${product.string_1}</li>
                 <li class="cards__list"><img class="img__checked__menu" src="img/checked__menu.svg"
@@ -84,38 +84,3 @@
 renderProducts(products);
 
 })();
-
-(function() {
-
-    const slides = [
-        `<article class="about__course"><h4 class="about__course__header">
-        LATTE ART COURSE
-    </h4></article>`,
-        `<article class="about__course"><h4 class="about__course__header">
-        BARISTA LICENSE COURSE
-    </h4></article>`,
-        `<article class="about__course"><h4 class="about__course__header">
-        ADVANCED BARISTA COURSE
-    </h4></article>`,
-        `<article class="about__course"><h4 class="about__course__header">
-        COFFEE LAKE A PRO AT HOME
-    </h4></article>`
-    ]
-
-    let slideIdx = 0;
-
-    function showCurrentSlide() {
-        const slideContainer = document.querySelector('.main-products__carousel .slide-container')
-        slideContainer.innerHTML = slides[slideIdx]
-    }
-
-    function nextSlide() {
-        slideIdx = slideIdx + 1 > slides.length ? 0 : slideIdx + 1;
-    showCurrentSlide();
-  }
-
-  setInterval(nextSlide, 3000);
-  showCurrentSlide();
-
-
-})()
