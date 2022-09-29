@@ -3,14 +3,18 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    min-height: 500px;
-    font-weight: 464;
+    /* min-height: 500px;
+    font-weight: 464; */
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--text-color);
     text-align: center;
-    min-width: 320px;
+    /* min-width: 320px; */
+    /* transition: opacity .3s ease-out; */
+    object-fit: cover;
+    object-position: 58.13% 32.34%;
+    /* background-repeat: no-repeat; */
 }
 
 .video_make-coffee {
@@ -45,9 +49,9 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    min-width: 320px;
+    /* min-width: 320px; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -55,10 +59,10 @@
 @media (min-width:700px) {
     #video__text {
         color: var(--color-white);
-        font-size: 58px;
+        /* font-size: 58px; */
         line-height: 1.1;
         font-family: var(--text-title);
-        font-weight: 400;
+        /* font-weight: 400; */
         text-transform: none;
         text-decoration: none;
         font-style: normal;
@@ -71,4 +75,10 @@
     font-family: var(--text-gold);
     font-size: 24px;
     text-align: center;
+}
+
+@media (min-width: 880px) {
+    #video__text {
+        font-size: 58px;
+    }
 }
