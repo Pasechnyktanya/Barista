@@ -1,15 +1,11 @@
 #our_fav_coffee_recipes {
     background-color: #f2f0ec;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     font-size: 100%;
-    /* align-items: center; */
+    align-items: center;
     font: inherit;
     box-sizing: border-box;
-    padding: 90px 24px 90px 24px;
-    align-items: center;
-
-
 }
 
 #first_p_with_int-print {
@@ -19,22 +15,23 @@
     color: var(--text-color);
     font-size: 26px;
     line-height: 1;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    letter-spacing: 0;
+    /* margin-block-start: 1em;
+    margin-block-end: 1em; */
+    /* letter-spacing: 0; */
 }
 
 .photo_coffee {
     display: grid;
     grid-template-columns: 500px 500px;
     align-items: center;
+  
 }
 
 #hr_after_p-y {
     width: 15%;
     height: 3px;
     background-color: #c9a27c;
-    justify-content: left;
+    /* justify-content: left; */
 }
 
 .recipes__proposal {
@@ -104,14 +101,15 @@
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/photo_coffe_background.png);
     background-size: 100% auto;
     width: 400px;
-    margin: 30px;
+    margin: auto;
     color: var(--color-white);
     background-attachment: scroll;
     background-repeat: no-repeat;
     font-family: var(--text-content);
     font-size: 19px;
     position: relative;
-    padding: 140px 0 140px 0;
+    padding: 70px;
+    margin-bottom: 20px;
 }
 
 .cheese_dessert {
@@ -121,7 +119,7 @@
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/backgr_cheese_cake.png);
     background-size: 100% auto;
     width: 400px;
-    margin: 30px;
+    margin: auto;
     color: var(--color-white);
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -129,7 +127,8 @@
     font-size: 19px;
     position: relative;
     text-align: center;
-    padding: 140px 0 140px 0;
+    padding: 70px;
+    margin-bottom: 20px;
 }
 
 .our_fav_coffee_recipes {
@@ -213,9 +212,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-top: 30px;
-    padding-left: 10px;
-
+    padding-top: 50px;
+    padding-bottom:20px;
+   
+}
 
 /* .recipes{
     display: block;
