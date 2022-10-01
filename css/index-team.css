@@ -34,11 +34,6 @@
     line-height: 1.1;
 }
 
-.hr_logo_team {
-    min-height: 3px;
-    width: 19px;
-    background-color: var(--text-color);
-}
 
 .p_font_team {
     font-size: 19px;
@@ -98,6 +93,7 @@
 .hr_team {
     min-height: 1px;
     width: 276px;
+    
 }
 
 .team_fonts_p {
@@ -121,13 +117,14 @@
 
 }
 
-@media (min-width:768px) {
-    .hr_logo_team {
-        min-height: 3px;
-        width: 55px;
-        background-color: var(--text-color);
-    }
+.team__icon_font[type="submit"]:hover {
+    text-decoration: none;
+    color: var(--color-white);
+    background: var(--text-color);
 
+}
+
+@media (min-width:768px) {
     .team__info {
         padding: 46px 52px 46px 52px;
     }

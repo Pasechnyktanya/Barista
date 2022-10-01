@@ -7,8 +7,9 @@
     width: calc(100% + 30px);
     margin-left: -15px;
     margin-right: -15px;
-    overflow-x: hidden;
-    justify-content: flex-start;
+    /* max-width: 1200px; */
+    
+    
 }
 
 .container_making-coffee {
@@ -17,8 +18,6 @@
 }
 
 .image__making {
-    width: 100%;
-    height: 100%;
     object-fit: contain;
     object-position: 50% 50%;
     padding-left: 15px;
@@ -27,7 +26,6 @@
 }
 
 .columns_making__coffee {
-    font-size: 100%;
     margin-top: 50px;
     padding-left: 15px;
     padding-right: 15px;
@@ -102,13 +100,7 @@
     text-transform: none;
 }
 
-.hr_logo_making {
-    min-height: 3px;
-    width: 10%;
-    background-color: var(--text-color);
-    /* border: 2px solid var(--text-color); */
-    margin-top: 20px;
-}
+
 
 .p_making_coffee_fonts_h3 {
     font-size: 17px;
@@ -143,21 +135,42 @@
         flex-direction: row;
         justify-content: space-around;
         flex: 1;
-        overflow-x: hidden;
+        /* margin: auto; */
+        object-fit: contain;
+        object-position: 50% 50%;
+        
     }
+    /* .image__making {
+        max-width: 470px;
+        max-height: 445px;
+        display: flex;
+    } */
+    .img_making {
+        /* display: flex; */
+        /* justify-content: flex-start; */
+        max-width: 470px;
+        max-height: 445px;
+        object-fit: contain;
+        object-position: 50% 50%;
+        
+       
+    }
+    
 
     .columns_making__coffee {
         display: flex;
         flex-direction: row;
-        overflow-x: hidden;
+        justify-content: space-around;
+        flex: 1;
+        
+        
+       
     }
 
     .column__making-coffee {
         padding-left: 15px;
         padding-right: 15px;
-        flex-basis: auto;
-        margin-top: 0px;
-        overflow-x: hidden;
+        /* flex-basis: auto; */
        
     }
 
@@ -165,7 +178,6 @@
         padding-left: 15px;
         padding-right: 15px;
         margin-top: 0%;
-        overflow-x: hidden;
         box-sizing: border-box;
         width: 100%;
 
@@ -173,17 +185,6 @@
     }
 
 
-
-    .image__making {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        object-position: 50% 50%;
-        font: inherit;
-        vertical-align: baseline;
-
-
-    }
 
     .h2_master_coffee_making {
         flex-basis: 25%;
