@@ -1,15 +1,15 @@
 .master-coffe-making {
     display: flex;
     flex-direction: column;
-    font-size: 100%;
-    box-sizing: border-box;
+    /* font-size: 100%; */
+    /* box-sizing: border-box; */
     padding: 90px 24px 90px 24px;
     width: calc(100% + 30px);
     margin-left: -15px;
     margin-right: -15px;
     /* max-width: 1200px; */
-    
-    
+
+
 }
 
 .container_making-coffee {
@@ -26,7 +26,7 @@
 }
 
 .columns_making__coffee {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -36,9 +36,10 @@
     color: var(--text-color);
     font-size: 26px;
     line-height: 1;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+    /* margin-block-start: 1em; */
+    /* margin-block-end: 1em; */
     letter-spacing: 0;
+    margin-top: 30px;
 }
 
 .h2_master_coffee_making {
@@ -84,7 +85,7 @@
 }
 
 .column_making-learn-more {
-    margin-top: 50px;
+    margin-top: 30px;
 
 }
 
@@ -135,53 +136,39 @@
         flex-direction: row;
         justify-content: space-around;
         flex: 1;
-        /* margin: auto; */
-        object-fit: contain;
-        object-position: 50% 50%;
-        
     }
-    /* .image__making {
-        max-width: 470px;
-        max-height: 445px;
-        display: flex;
-    } */
+
+    .fonts_logo_making {
+        margin-top: 0%;
+    }
+
+   
     .img_making {
-        /* display: flex; */
-        /* justify-content: flex-start; */
+        display: flex;
         max-width: 470px;
         max-height: 445px;
         object-fit: contain;
         object-position: 50% 50%;
-        
-       
     }
-    
 
     .columns_making__coffee {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex: 1;
-        
-        
-       
     }
 
     .column__making-coffee {
         padding-left: 15px;
         padding-right: 15px;
-        /* flex-basis: auto; */
-       
+        margin-top: 10px;
     }
 
     .column_making-learn-more {
         padding-left: 15px;
         padding-right: 15px;
-        margin-top: 0%;
-        box-sizing: border-box;
+        margin-top: 10px;
         width: 100%;
-
-
     }
 
 
@@ -189,10 +176,6 @@
     .h2_master_coffee_making {
         flex-basis: 25%;
         max-width: 25%;
-        margin-top: 20px;
-
-
-
     }
 
 }
