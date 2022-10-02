@@ -1,6 +1,6 @@
-(function () {
+//(function () {
 
-    const slides = [
+   // const slides = [
         `<div class="ws__card">
                 <div class="ws__card__icon"></div>
                 <div class="ws__card__name">JOHN JELLY</div>
@@ -30,22 +30,22 @@
                         coffee place is now such a pleasure.”</div>
                     <div class="ws__data">November 22, 2021</div>
                 </div>`
-    ];
+   // ];
 
-    let slideIdx = 0;
-    const slideContainer = document.querySelector(`.pr-carousel .slide-container`);
+  //  let slideIdx = 0;
+   // const slideContainer = document.querySelector(`.pr-carousel .slide-container`);
 
-    function showCurrentSlide() {
+  //  function showCurrentSlide() {
        
-        slideContainer.innerHTML = slides[slideIdx];
+   //     slideContainer.innerHTML = slides[slideIdx];
 
-    }
+  //  }
 
-    function nextSlide() {
-        slideIdx = slideIdx + 1 >= slides.length ? 0 : slideIdx + 1;
-        showCurrentSlide();
-    }
+   // function nextSlide() {
+   //     slideIdx = slideIdx + 1 >= slides.length ? 0 : slideIdx + 1;
+   //     showCurrentSlide();
+   // }
 
-    setInterval(nextSlide, 3000);
+   // setInterval(nextSlide, 3000);
 
 })()
