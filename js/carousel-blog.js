@@ -50,7 +50,7 @@
         sliderContainer.innerHTML = slidesBlog[currentSlides];
         if (window.innerWidth > 700) {
             const secondSlIndex = currentSlides + 1 >= slidesBlog.length ? 0 : currentSlides + 1;
-            sliderContainer.innerHTML += slidesBlog[currentSlides];
+            sliderContainer.innerHTML += slidesBlog[secondSlIndex];
             if (window.innerWidth > 900) {
                 const thirdSlideIdx = secondSlIndex + 1 >= slidesBlog.length ? 0 : secondSlIndex + 1;
                 sliderContainer.innerHTML += slidesBlog[thirdSlideIdx];
