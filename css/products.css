@@ -1,11 +1,13 @@
 #our_fav_coffee_recipes {
     background-color: #f2f0ec;
-    display: flex;
-    flex-direction: column;
+
     font-size: 100%;
     align-items: center;
     font: inherit;
     box-sizing: border-box;
+    margin: 0;
+    width: 100vw;
+    padding: 40px;
 }
 
 #first_p_with_int-print {
@@ -20,12 +22,12 @@
     /* letter-spacing: 0; */
 }
 
-.photo_coffee {
+/* .photo_coffee {
     display: grid;
     grid-template-columns: 500px 500px;
     align-items: center;
 
-}
+} */
 
 #hr_after_p-y {
     width: 15%;
@@ -45,14 +47,15 @@
 }
 
 #coffee_background {
-    width: 300px;
+
+    /* width: 300px;
     height: 300px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8); */
 }
 
 #cheese_dessert {
-    width: 300px;
-    height: 300px;
+    /* width: 300px;
+    height: 300px; */
 }
 
 .remember_this p {
@@ -64,7 +67,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color:#f2f0ec;
+    background-color: #f2f0ec;
     padding: 10px;
 }
 
@@ -72,7 +75,7 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color:#f2f0ec;
+    background-color: #f2f0ec;
     padding: 10px;
 }
 
@@ -80,15 +83,14 @@
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color:#f2f0ec;
+    background-color: #f2f0ec;
     padding: 10px;
-    
+
 }
 
-.remember_this__two-big-photos {
-    width: 500px;
-    height: 500px
-}
+/* .remember_this__two-big-photos {
+    width: 100vw;
+} */
 
 .few_things {
     color: #5b5b5b;
@@ -107,29 +109,26 @@
 
 .cold_latte {
     text-align: center;
-    display: flex;
+    margin: 0;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/photo_coffe_background.png);
     background-size: 100% auto;
-    width: 400px;
-    margin: auto;
+    width: 90%;
     color: var(--color-white);
     background-attachment: scroll;
     background-repeat: no-repeat;
     font-family: var(--text-content);
     font-size: 19px;
     position: relative;
-    padding: 70px;
+    padding: 40px;
     margin-bottom: 20px;
 }
 
 .cheese_dessert {
-
+    margin: 0;
     text-align: center;
-    display: flex;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/backgr_cheese_cake.png);
     background-size: 100% auto;
-    width: 400px;
-    margin: auto;
+    width: 90%;
     color: var(--color-white);
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -137,7 +136,7 @@
     font-size: 19px;
     position: relative;
     text-align: center;
-    padding: 70px;
+    padding: 40px;
     margin-bottom: 20px;
 }
 
@@ -149,7 +148,7 @@
     font-size: 100%;
 }
 
-@media (min-width: 300px) {
+/* @media (min-width: 300px) {
     #our_fav_coffee_recipes {
         display: block;
         flex-direction: row;
@@ -179,35 +178,19 @@
         padding: 0px 15px 0px 15px;
 
     }
-}
+} */
 
 .recipes {
     display: block;
 }
 
-@media (max-width: 990px) {
-    .photo_coffee {
-
-        display: block;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        flex: 1;
-        margin: 0px 15px 0px 15px;
-        font-size: 100%;
-        box-sizing: border-box;
-        padding: 90px 24px 90px 24px;
-        padding: 0px 15px 0px 15px;
-
-    }
-}
-
+/* 
 @media (min-width: 1200px) {
     .container_our_f {
         display: grid;
         grid-template-columns: 20% 40% 40%;
     }
-}
+} */
 
 /* @media (min-width: 500px){
         .recipes {
@@ -258,4 +241,47 @@
 
 .container_our_f {
     margin: auto;
+}
+
+@media(min-width:1000px) {
+    #our_fav_coffee_recipes {
+        display: flex;
+        width: 100vw;
+        padding: 100px 150px;
+    }
+
+    .container_our_f {
+        display: flex;
+    }
+
+    .photo_coffee {
+        display: flex;
+        gap: 20px;
+        width: 70%;
+        justify-content: space-around;
+    }
+
+    .recipes {
+        width: 30%;
+        margin-right: 10px;
+    }
+
+    .cold_latte,
+    .cheese_dessert {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 350px;
+        background-size: cover;
+    }
+
+}
+
+@media(min-width:800px) {
+    .photo_coffee {
+        display: flex;
+        gap: 10px;
+    }
 }
