@@ -19,7 +19,7 @@
 } */
 
 .img__blog {
-   
+
     object-fit: cover;
     object-position: 36.111% 1.876%;
     width: 120px;
@@ -31,7 +31,7 @@
 .blog_image {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .btn_blog_prev {
@@ -39,11 +39,14 @@
 
 }
 
-@media (min-width: 700px) {
-    .container__blog {
-       display: flex;
-       justify-content: space-around;
-       flex: 1;
-    }
+.container__blog {
+    min-height: 350px;
 }
 
+@media (min-width: 700px) {
+    .slider-line {
+        display: flex;
+        justify-content: space-around;
+        flex: 1;
+    }
+}
