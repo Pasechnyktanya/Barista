@@ -21,7 +21,7 @@
                             </div>
                             <div class="info_blog">
                                 <p>Coffee trends | October 03, 2022</p>
-                                <h2>TOP WINTER COFFEE DRINKS</h2>
+                                <h2>Top winter coffee drinks</h2>
                                 <p>A few more weeks, and it will get really cold outside. It's time to put together a
                                     winter
                                     menu and prepare some new hot drinks for your customers with our top recipes...</p>
