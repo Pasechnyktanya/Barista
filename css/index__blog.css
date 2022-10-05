@@ -133,4 +133,11 @@
     .logo_blog_h2 {
         font-size: 38px;
     }
+
+    .container__blog {
+        min-height: 350px;
+        display: flex;
+    }
+
+
 }
