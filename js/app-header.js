@@ -22,5 +22,5 @@
         navMainMenu.style.top = '-100%';
     }
 
-}) ();
+})();
 

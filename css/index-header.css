@@ -3,8 +3,6 @@
     padding: 30px 15px 30px 15px;
     background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/background-header.png);
     background-size: cover;
-   /*padding-left: 213px;
-    padding-right: 213px;*/
     opacity: 0.85;
     margin: auto;
 
@@ -29,7 +27,6 @@
     height: 2px;
     left: 0;
     bottom: 0;
-   /* transform: scale(0);*/
     transition: .3s;
     background-color: var(--light-text-color);
 }
@@ -129,7 +126,6 @@ h1 {
 
 .nav__link__main__menu:hover {
     color: var(--light-text-color);
-    /*border-bottom: 2px solid currentColor;*/
     transition: 0.3ms;
     text-decoration: none;
 }
@@ -167,8 +163,6 @@ h1 {
     position: relative;
     left: 250px;
     top: -15px;
-    /*border-bottom: 20px;*/
-    /*margin: 20px;*/
     cursor: pointer;
     display: none;
 }
@@ -176,6 +170,7 @@ h1 {
 .closedMenu {
     display: none;
     cursor: pointer;
+    z-index: 50;
 }
 
 @media (max-width: 1300px) {
@@ -196,25 +191,11 @@ h1 {
         justify-content: start;
     }
 
-    .nav__social {
-        /*position: relative;*/
-        display: block;
-
-        /*flex-direction: row;*/
-       /* top: 0;*/
-
-    }
-
     .closedMenu {
         display: none;
-        /*position: relative;
-        top: -60px;
-        right: 40px;*/
         margin-top: 20px;
-        margin-right: 100px;
-
+        margin-right: 80px;
     }
-
 }
 
 @media (max-width: 768px) {
@@ -237,7 +218,7 @@ h1 {
     }
 
     .nav__link__main__menu {
-        
+
         font-size: 0.8rem;
         margin-bottom: 10px;
         text-align: center;
@@ -253,23 +234,9 @@ h1 {
         z-index: 20;
     }
 
-    /*.closedMenu {
-        display: block;
-        position: absolute;
-        top: 40px;
-        right: 40px;
-    }*/
-
     .nav__menu .openedMenu {
         display: block;
     }
-
-    /*.header__list__social {
-        display: inline-block;
-        padding: 15px;
-        text-decoration: none;
-        transition: 0.2s ease;
-    }*/
 
     nav .openedMenu {
         margin: 20px;
@@ -277,9 +244,9 @@ h1 {
         cursor: pointer;
     }
 
-   .nav__links__main__menu .closedMenu,
+    .nav__links__main__menu .closedMenu,
     .nav__social .header__list__social li a {
-        /*display: none;*/
+        display: none;
         cursor: pointer;
     }
 
@@ -287,14 +254,11 @@ h1 {
         display: block;
         position: absolute;
         top: 15px;
-        right: 80px;
+        right: 5px;
         z-index: 25;
     }
 
     nav .openedMenu {
         display: block;
     }
-
 }
-
-
