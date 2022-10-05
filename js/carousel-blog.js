@@ -7,9 +7,9 @@
                                 <img class="img__blog" src="img/blog1 (1).png" alt="img_blog">
                             </div>
                             <div class="info_blog">
-                                <p>Coffee trends | May 22, 2022</p>
-                                <h2>What's up with flat white?</h2>
-                                <p>Remember the time when flat white suddenly appeared in all trendy coffee shops and
+                                <p class="blog-logo">Coffee trends | May 22, 2022</p>
+                                <h2 class="blog_h2_logo">What's up with flat white?</h2>
+                                <p class="p_blog_info">Remember the time when flat white suddenly appeared in all trendy coffee shops and
                                     became
                                     the
                                     most popular drink? But who orders it now? Almost nobody...</p>
@@ -20,9 +20,9 @@
                                 <img class="img__blog" src="img/img_coffee_blog.png" alt="img_blog">
                             </div>
                             <div class="info_blog">
-                                <p>Coffee trends | October 03, 2022</p>
-                                <h2>Top winter coffee drinks</h2>
-                                <p>A few more weeks, and it will get really cold outside. It's time to put together a
+                                <p class="blog-logo">Coffee trends | October 03, 2022</p>
+                                <h2 class="blog_h2_logo"> Top winter coffee drinks</h2>
+                                <p class="p_blog_info">A few more weeks, and it will get really cold outside. It's time to put together a
                                     winter
                                     menu and prepare some new hot drinks for your customers with our top recipes...</p>
                             </div>
@@ -32,9 +32,9 @@
                                 <img class="img__blog" src="img/img_coffee_blog1.png" alt="img_blog">
                             </div>
                             <div class="info_blog">
-                                <p>Infographics | October 12, 2022</p>
-                                <h2>How to please any taste</h2>
-                                <p>Coffee lovers have their own preferences. Someone likes strong coffee while someone
+                                <p class="blog-logo">Infographics | October 12, 2022</p>
+                                <h2 class="blog_h2_logo">How to please any taste</h2>
+                                <p class="p_blog_info">Coffee lovers have their own preferences. Someone likes strong coffee while someone
                                     adds
                                     a
                                     lot of milk. Someone prefers Arabica, and others love Robusta most of all...</p>
