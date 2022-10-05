@@ -1,4 +1,4 @@
-(function() {
+(function () {
 
     const products = [
         {
@@ -8,11 +8,11 @@
             price: '$150 | 5 days',
             string_1: 'For all coffee fans;',
             string_2: 'Offline lessons only;',
-            string_3: 'All materials included;',    
+            string_3: 'All materials included;',
             string_4: '8 hours of training;',
             string_5: 'Easy to repeat at home;'
 
-        
+
         },
         {
             id: 2,
@@ -20,7 +20,7 @@
             price: '$365 | 23 days',
             string_1: 'For beginners;',
             string_2: '50+ hours of training;',
-            string_3: 'Classic drinks;',    
+            string_3: 'Classic drinks;',
             string_4: 'Interships included;',
             string_5: 'A certificate is issued;'
 
@@ -31,7 +31,7 @@
             price: '$350 | 14 days',
             string_1: 'For proffessionals;',
             string_2: 'Online and offline;',
-            string_3: 'Proffessional equipment;',    
+            string_3: 'Proffessional equipment;',
             string_4: 'Coffee roasting details;',
             string_5: 'Alternative brewing;'
 
@@ -42,7 +42,7 @@
             price: '$150 | 5 days',
             string_1: 'For beginners;',
             string_2: 'Classic recipes;',
-            string_3: 'Secret tips;',    
+            string_3: 'Secret tips;',
             string_4: 'Making lush milk foam;',
             string_5: '10 hours of training;'
 
@@ -52,10 +52,10 @@
 
     function renderProducts(products) {
         const productsContainer = document.querySelector('.about__course__container');
-        
+
         for (const product of products) {
-            productsContainer.innerHTML += 
-           ` <article class="about__course">
+            productsContainer.innerHTML +=
+                ` <article class="about__course">
             <h4 class="about__course__header">
                 ${product.name}
             </h4>
@@ -80,7 +80,7 @@
         </article>`;
         }
     }
-    
-renderProducts(products);
+
+    renderProducts(products);
 
 })();
