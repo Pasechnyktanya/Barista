@@ -207,43 +207,10 @@
         </section>
         <section class="blog">
             <div class="container__blog">
-
-
-                <button type="button" class="btn_blog_prev"><i class="fa-solid fa-circle-chevron-left"></i></button>
-                <button type="button" class="btn_blog_next"><i class="fa-solid fa-circle-chevron-right"></i></button>
-                <article class="blog_card">
-                    <div class="blog_image">
-                        <img class="img__blog" src="img/blog1 (1).png" alt="img_blog">
-                    </div>
-                    <div class="info_blog">
-                        <p>Coffee trends | May 22, 2022</p>
-                        <h2>What's up with flat white?</h2>
-                        <p>Remember the time when flat white suddenly appeared in all trendy coffee shops and became the
-                            most popular drink? But who orders it now? Almost nobody...</p>
-                    </div>
-                </article>
-                <article class="blog_card">
-                    <div class="blog_image">
-                        <img class="img__blog" src="img/img_coffee_blog.png" alt="img_blog">
-                    </div>
-                    <div class="info_blog">
-                        <p>Coffee trends | October 03, 2022</p>
-                        <h2>TOP WINTER COFFEE DRINKS</h2>
-                        <p>A few more weeks, and it will get really cold outside. It's time to put together a winter
-                            menu and prepare some new hot drinks for your customers with our top recipes...</p>
-                    </div>
-                </article>
-                <article class="blog_card">
-                    <div class="blog_image">
-                        <img class="img__blog" src="img/img_coffee_blog1.png" alt="img_blog">
-                    </div>
-                    <div class="info_blog">
-                        <p>Infographics | October 12, 2022</p>
-                        <h2>How to please any taste</h2>
-                        <p>Coffee lovers have their own preferences. Someone likes strong coffee while someone adds a
-                            lot of milk. Someone prefers Arabica, and others love Robusta most of all...</p>
-                    </div>
-                </article>
+                <div class="btn_blog_prev"><i class="fa-solid fa-circle-chevron-left"></i></div>
+                <div class="slider-line">
+                </div>
+                <div class="btn_blog_next"><i class="fa-solid fa-circle-chevron-right"></i></div>
             </div>
         </section>
         <section class="video">
@@ -358,31 +325,31 @@
                     <div class="cold_latte">
 
                         <!-- <img id="coffee_background" src="img/photo_coffe_background.png" alt="photo_coffe_background"> -->
-                        <div class="content_cl">
 
-                            <h4 class="title">COLD LATTE</h4>
-                            <p class="text_photo_cold_latte">To make the number one summer coffee, mix espresso, milk,
-                                syrup,
-                                and ice cubes. Blend everything until it looks like a one-piece liquid. Pour the mix
-                                into
-                                glasses and decorate the glass with whipped cream.</p>
-                            <a href="#" class="button_cold_latte_open" target="_blank">Open</a>
-                        </div>
+
+                        <h4 class="title">COLD LATTE</h4>
+                        <p class="text_photo_cold_latte">To make the number one summer coffee, mix espresso, milk,
+                            syrup,
+                            and ice cubes. Blend everything until it looks like a one-piece liquid. Pour the mix
+                            into
+                            glasses and decorate the glass with whipped cream.</p>
+                        <a href="#" class="button_cold_latte_open" target="_blank">Open</a>
+
                     </div>
 
                     <div class="cheese_dessert">
                         <!-- <img id="cheese_dessert" src="img/photo_cheese_desert.jpg" alt="photo_cheese_desert"> -->
-                        <div class="content_cl">
-                            <h4>CHESSE DESSERT</h4>
-                            <p class="text_photo_cheese_desert">Boil milk, add coffee and sugar. Mix it and cool it
-                                down.
-                                Put
-                                cottage cheese in a bowl, add cold coffee, and whip it. Malt some peanuts and add them
-                                to
-                                the
-                                cheese-coffee bowl. Then, mix it and serve on small plates.</p>
-                            <a href="#" target="_blank" class="button_cheese_dessert_open">Open</a>
-                        </div>
+
+                        <h4>CHESSE DESSERT</h4>
+                        <p class="text_photo_cheese_desert">Boil milk, add coffee and sugar. Mix it and cool it
+                            down.
+                            Put
+                            cottage cheese in a bowl, add cold coffee, and whip it. Malt some peanuts and add them
+                            to
+                            the
+                            cheese-coffee bowl. Then, mix it and serve on small plates.</p>
+                        <a href="#" target="_blank" class="button_cheese_dessert_open">Open</a>
+
                     </div>
                 </div>
 
@@ -422,7 +389,11 @@
                 </p>
             </div>
             <div class="about__course__container">
-                <!-- <article class="about__course">
+                <div class="slider-track__pricing">
+                    <div class="main-products__carousel">
+                        <div class="slide-container"></div>
+                    </div>
+                    <!-- <article class="about__course">
                     <h4 class="about__course__header">
                         LATTE ART COURSE
                     </h4>
@@ -517,7 +488,7 @@
                         Select Course
                     </button>
                 </article>-->
-            </div>
+                </div>
             </div>
             <div class="img-under-pricing">
                 <svg width="100%" height="100%" viewBox="0 0 2100 183" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -821,8 +792,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/app-header.js"></script>
     <script src="js/clock-class-video.js"></script>
+    <script src="js/app-pricing-carousel.js"></script>
     <script src="js/app-pricing-cards.js"></script>
     <script src="js/galery.js"></script>
+    <script src="js/carousel-blog.js"></script>
 
 </body>
 
