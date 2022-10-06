@@ -14,9 +14,12 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     height: auto;
-    margin: 0 0 20px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
     color: var(--light-text-color);
-        
+
 }
 
 .about__course {
@@ -28,19 +31,20 @@
     font-stretch: 100%;
     font-weight: 400;
     overflow-wrap: break-word;
-    
+    position: relative;
+
 }
 
 .about__pricing {
     font-size: 19px;
-    font-family: 'roboto',serif;
+    font-family: 'roboto', serif;
     color: var(--light-text-color);
     word-wrap: break-word;
 }
 
 .our__pricing__plans__block {
     display: grid;
-    justify-items: center; 
+    justify-items: center;
     align-items: center;
 
 }
@@ -62,9 +66,10 @@
     font-size: 24px;
 }
 
-.pricing, .about__course__price {
+.pricing,
+.about__course__price {
     color: var(--text-color);
-    
+
 }
 
 .about__course__price {
@@ -85,17 +90,19 @@
 }
 
 .button__pricing {
-   color: var(--light-text-color);
-   background-color: var(--text-color);
-   height: 15x;
+    color: var(--light-text-color);
+    background-color: var(--text-color);
+    height: 15x;
     width: auto;
     border: none;
     padding: 15px 26px 15px 26px;
+    position: absolute;
+    bottom: 15px;
 
 }
 
 .img-above-pricing {
-   /*background-color: var(--background-dark);*/
+    /*background-color: var(--background-dark);*/
     /*color: var(--background-dark);*/
     fill: var(--background-dark);
 }
@@ -117,7 +124,7 @@
     font-family: 'roboto', serif;
 }
 
- .cards__list:not(:first-child) {
+.cards__list:not(:first-child) {
     padding-top: 15px;
 }
 
@@ -129,16 +136,23 @@
     margin-bottom: 15px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1080px) {
     .about__course__container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: max-content;
-        margin: 20px 0 20px 0; 
+        margin: 20px 0 20px 0;
     }
+
     .our__pricing__plans {
         padding: 0;
     }
+
+    .list__about__course {
+        font-size: 15px;
+    }
+
+
 }
 
 @media screen and (max-width: 768px) {
@@ -146,9 +160,10 @@
         display: grid;
         grid-template-columns: 1fr;
         width: max-content;
-        margin: auto; 
+        margin: auto;
         align-items: center;
     }
+
     .our__pricing__plans {
         padding: 0;
     }
