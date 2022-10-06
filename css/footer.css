@@ -1,11 +1,137 @@
+.footer_footer {
+    background: var(--background-dark);
+    color: var(--color-white);
+    margin-top: 90px;
+
+
+}
+
+.form_us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #2e3032;
+    text-align: left;
+    margin: 50px 30px 20px 30px;
+    padding: 35px 35px 35px 35px;
+}
+
+
+.form_footer {
+    display: flex;
+    flex-direction: column;
+    background: #2e3032;
+    justify-content: center;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25.5px;
+    font-weight: 400;
+    /* position: relative; */
+    margin-top: 20px;
+}
+
+.f_input {
+    border-color: #f2f0ec;
+    background-color: rgba(255, 255, 255, 0.01);
+    margin-top: 12px;
+    size: 19px;
+    margin-bottom: 24px;
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    border: 0;
+    color: #fff;
+    border-color: #f2f0ec;
+    border-style: solid;
+    padding: 15px 26px;
+    font-size: 15px;
+    border-radius: 0;
+    line-height: 1.3333;
+}
+
+.f_input_send {
+    background: var(--text-color);
+    margin-top: 46px;
+    color: var(--color-white);
+    text-decoration: none;
+    text-align: center;
+    background-position: 50%;
+    overflow: visible;
+    cursor: pointer;
+    border-style: solid;
+    padding: 15px 26px;
+    font-size: 15px;
+    border-radius: 0;
+    line-height: 1.3333;
+    border: 0;
+
+}
+
+
+.footer-cart {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 50px;
+    
+
+}
+
+.contacts_footer {
+    font-size: 38px;
+margin-top: 20px;
+    line-height: 1.1;
+    font-family: Bebas Neue, cursive;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .02em;
+}
+
+.svg-footer-number {
+    margin-bottom: 16px;
+    color: var(--text-color);
+}
+
 .button {
-    display: block;
+    color: rgb(255, 244, 244);
+    margin-left: 7.5px;
+    text-decoration: none;
 }
 
-.ending__links {
-    display: line;
-}
 
-.input__contact {
-    display: block;
+
+
+@media (min-width: 700px) {
+    .footer_us {
+        display: flex;
+        flex-direction: row;
+
+    
+
+    }
+
+
+    .footer-cart {
+        
+        flex-basis: 58.33333%;
+        max-width: 58.33333%;
+
+    }
+
+    .form_us {
+    padding: 50px 50px 50px 50px;
+ }
+    .form_us {
+        
+        flex-basis: 41.66667%;
+        max-width: 41.66667%;
+    }
+
+    .contacts_footer {
+        font-size: 38px;
+    }
+
+
 }
