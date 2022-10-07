@@ -22,6 +22,10 @@
     --color-text-gray-light: rgba(159, 159, 159);
     --text-color-gr: rgba(91, 91, 91);
     --text-color-gray-text:rgb(130,130,130);
+    --color-btn_gray: #2e3032;
+    --color-wh-gr: rgb(255, 244, 244);
+    --white--color: #f2f0ec;
+    --text-color--bl:rgba(255, 255, 255, 0.01);
     --text-title: 'Bebas Neue';
     --text-content: 'Roboto', sans-serif;
     --text-gold: 'Satisfy';
