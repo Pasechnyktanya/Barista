@@ -296,11 +296,15 @@
         flex-direction: row;
         justify-content: space-around;
         flex: 1;
+        
+        margin-right: 30px;
+        margin-left: 30px;
     }
 
     .h2_footer_card {
         font-size: 28px;
     }
+   
 
     .container-footer {
         display: flex;
@@ -309,6 +313,8 @@
         flex-direction: row;
         text-align: center;
         align-items: center;
+        margin-left: 40px;
+        margin-right: 30px;
     }
 
     .li_footer {
