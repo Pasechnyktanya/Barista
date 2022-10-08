@@ -56,7 +56,7 @@
 
 .remember_this__features {
     margin-left: 5px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .remember_this__two-big-photos {
@@ -78,6 +78,7 @@
     .remember_this__two-big-photos {
         margin-left: 50px;
         width: 50%;
+       
     }
 
 }
