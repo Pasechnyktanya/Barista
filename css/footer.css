@@ -296,7 +296,7 @@
         flex-direction: row;
         justify-content: space-around;
         flex: 1;
-        
+
         margin-right: 30px;
         margin-left: 30px;
     }
@@ -304,7 +304,7 @@
     .h2_footer_card {
         font-size: 28px;
     }
-   
+
 
     .container-footer {
         display: flex;
@@ -324,6 +324,10 @@
         flex-direction: row;
         text-align: center;
         align-items: center;
+        margin-left: 120px;
+        margin-right: 120px;
+        margin-bottom: 10px;
+
     }
 
     .footer__icons {
@@ -332,7 +336,5 @@
         text-align: center;
         align-items: center;
     }
-
-
 
 }
