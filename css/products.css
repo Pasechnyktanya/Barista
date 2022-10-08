@@ -6,7 +6,7 @@
     font: inherit;
     box-sizing: border-box;
     margin: 0;
-    width: 100vw;
+    /* width: 100vw; */
     padding: 40px;
 }
 
@@ -246,7 +246,7 @@
 @media(min-width:1000px) {
     #our_fav_coffee_recipes {
         display: flex;
-        width: 100vw;
+        /* width: 100vw; */
         padding: 100px 150px;
     }
 
