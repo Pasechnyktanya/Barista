@@ -45,7 +45,7 @@
 }
 
 .remember_this__photo {
-    margin: 50px 30px;
+    margin: 50px 20px;
 }
 
 .remember_this {
@@ -55,12 +55,12 @@
 
 
 .remember_this__features {
-    margin-left: 50px;
+    margin-left: 5px;
     width: 100%;
 }
 
 .remember_this__two-big-photos {
-    width: 100%;
+    width: 90%;
 }
 
 @media (min-width: 1000px) {
