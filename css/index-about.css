@@ -2,6 +2,7 @@
     display: flex;
     background: linear-gradient(rgba(39, 41, 43, 0.8), rgba(39, 41, 43, 0.8)), url(../img/img_about_section.png);
     background-size: 100% auto;
+    width: 100%;
     min-width: 320px;
     color: var(--color-white);
     background-attachment: fixed;
@@ -118,7 +119,7 @@
     display: block;
 }
 
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
     .ab__our__courses {
         padding: 80px 0;
     }
@@ -146,13 +147,14 @@
         margin: 10px 10px 10px 0;
     }
 
+
     .btn__select__course {
         padding: 10px;
         margin-left: 0;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .ab__our__courses {
         display: grid;
         grid-template-columns: 1fr;
@@ -174,7 +176,7 @@
     }
 }
 
-@media screen and (max-width: 340px) {
+@media (max-width: 340px) {
     .about__our__courses {
         background-size: auto;
         font-size: 12px;
@@ -187,7 +189,10 @@
     .about__btn {
         font-size: 15px;
         flex-direction: column;
+    }
 
+    .btn__ab {
+        min-height: 30px;
     }
 
     .about__course__time {

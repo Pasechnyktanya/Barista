@@ -22,7 +22,7 @@
 
 .slide__container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
 }
 
@@ -41,7 +41,6 @@
     font-family: var(--text-title);
     font-size: 26px;
     text-align: start;
-
     padding: 14px 0 14px 0;
 }
 
@@ -81,7 +80,7 @@
     opacity: 0.7;
 }
 
-@media screen and (max-width: 760px) {
+@media (max-width: 760px) {
     .what__our__students__say {
         padding: 40px 15px 40px 15px;
     }
