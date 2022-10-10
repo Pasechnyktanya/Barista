@@ -1,8 +1,9 @@
 .footer_footer {
     background: var(--background-dark);
     color: var(--color-white);
-    margin-top: 90px;
-    position: relative;
+    margin-top: 65px;
+    padding-top: 65px;
+
 
 
 }
@@ -137,11 +138,19 @@
 
 }
 
+.svg__footer-cl {
+    margin-bottom: -120px;
+}
+
 .cards_cards {
     display: flex;
     flex-direction: column;
     margin: 7.5px 7.5px 7.5px 7.5px;
 }
+
+
+
+
 
 .cards_cards .h2_footer_card {
     color: var(--color-white);
