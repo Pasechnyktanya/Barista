@@ -53,7 +53,7 @@
     color: var(--text-color);
     text-decoration: none;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 10px 10px 0;
     border: 2px solid var(--text-color);
 }
 
@@ -158,7 +158,7 @@
     .ab__our__courses {
         display: grid;
         grid-template-columns: 1fr;
-        background-size: auto;
+        background-size: cover;
         margin-left: 10px;
     }
 
@@ -178,7 +178,7 @@
 
 @media (max-width: 340px) {
     .about__our__courses {
-        background-size: auto;
+        background-size: cover;
         font-size: 12px;
     }
 
@@ -193,6 +193,7 @@
 
     .btn__ab {
         min-height: 30px;
+        margin: 10px auto 10px 0;
     }
 
     .about__course__time {
